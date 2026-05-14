@@ -25,7 +25,7 @@ GitHub Pages hospeda este site estatico sem dominio pago.
 
 Expected public URL after publishing:
 
-`https://nanquimori.github.io/KapiTomo/`
+`https://kapitomo.github.io/KapiTomo/`
 
 Configuracao usada:
 
