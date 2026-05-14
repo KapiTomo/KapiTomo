@@ -104,21 +104,56 @@
           </article>
         </div>
       </section>
+
+      <section id="workView" class="route-view hidden" aria-live="polite"></section>
+      <section id="chapterView" class="route-view hidden" aria-live="polite"></section>
     </main>
 
-    <dialog id="readerDialog" class="reader-dialog" aria-labelledby="readerTitle">
-      <div class="reader-shell">
-        <div class="reader-topbar">
-          <div>
-            <p id="readerMeta" class="reader-meta"></p>
-            <h2 id="readerTitle"></h2>
+    <template id="workTemplate">
+      <article class="manga-page">
+        <div class="manga-hero">
+          <img class="manga-backdrop" alt="">
+          <div class="manga-shade"></div>
+          <div class="manga-layout">
+            <img class="manga-cover" alt="">
+            <div class="manga-info">
+              <a class="back-link" href="#library">Voltar para obras</a>
+              <p class="eyebrow manga-genre"></p>
+              <h1></h1>
+              <div class="manga-badges"></div>
+              <p class="manga-description"></p>
+              <div class="manga-actions"></div>
+            </div>
           </div>
-          <button id="closeReader" class="icon-button" type="button" aria-label="Fechar leitor">x</button>
         </div>
-        <div id="chapterTabs" class="chapter-tabs" role="tablist" aria-label="Capitulos"></div>
-        <article id="readerPages" class="reader-pages"></article>
-      </div>
-    </dialog>
+        <div class="manga-content">
+          <aside class="manga-facts"></aside>
+          <section class="chapter-list-wrap">
+            <div class="chapter-list-heading">
+              <div>
+                <p class="eyebrow">Capitulos</p>
+                <h2>Lista de leitura</h2>
+              </div>
+              <span class="chapter-count"></span>
+            </div>
+            <div class="chapter-list"></div>
+          </section>
+        </div>
+      </article>
+    </template>
+
+    <template id="chapterTemplate">
+      <article class="chapter-page">
+        <header class="chapter-header">
+          <a class="back-link" href="#">Voltar para obra</a>
+          <p class="eyebrow"></p>
+          <h1></h1>
+          <div class="chapter-tools"></div>
+        </header>
+        <div class="webtoon-strip"></div>
+        <footer class="chapter-footer"></footer>
+      </article>
+    </template>
 
     <footer class="site-footer">
       <p>KapiTomo e meu espaco oficial para publicar obras autorais de leitura livre.</p>
