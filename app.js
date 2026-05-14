@@ -26,7 +26,7 @@ function renderWorks() {
   worksGrid.innerHTML = "";
 
   if (!visibleWorks.length) {
-    worksGrid.innerHTML = '<p class="empty-state">No works found.</p>';
+    worksGrid.innerHTML = '<p class="empty-state">Nenhuma obra encontrada.</p>';
     return;
   }
 
@@ -44,8 +44,8 @@ function renderWorks() {
         <h3>${work.title}</h3>
         <p>${work.description}</p>
         <div class="card-actions">
-          <button class="button primary small" type="button" data-read="${work.id}">Read</button>
-          <a class="button secondary small" href="${work.download}" download>Download</a>
+          <button class="button primary small" type="button" data-read="${work.id}">Ler</button>
+          <a class="button secondary small" href="${work.download}" download>Baixar</a>
         </div>
       </div>
     `;
@@ -73,7 +73,7 @@ function renderLatest() {
             <h3>${chapter.title}</h3>
             <p>${chapter.date}</p>
           </div>
-          <button class="button secondary small" type="button" data-read="${work.id}">Read</button>
+          <button class="button secondary small" type="button" data-read="${work.id}">Ler</button>
         </article>
       `
     )
@@ -105,7 +105,7 @@ function renderChapter(work, chapterIndex = 0) {
           class="${index === chapterIndex ? "active" : ""}"
           type="button"
           data-chapter="${index}"
-        >${item.title.replace("Chapter ", "Ch. ")}</button>
+        >${item.title.replace("Capitulo ", "Cap. ")}</button>
       `
     )
     .join("");

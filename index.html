@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       name="description"
-      content="KapiTomo is a free official webtoon library for reading and downloading original works."
+      content="KapiTomo e a biblioteca oficial gratuita para ler e baixar minhas obras originais."
     >
     <title>KapiTomo</title>
     <link rel="stylesheet" href="styles.css">
@@ -16,11 +16,11 @@
         <span class="brand-mark">K</span>
         <span>KapiTomo</span>
       </a>
-      <nav class="nav-links" aria-label="Primary navigation">
-        <a href="#library">Library</a>
-        <a href="#latest">Latest</a>
+      <nav class="nav-links" aria-label="Navegacao principal">
+        <a href="#library">Obras</a>
+        <a href="#latest">Capitulos</a>
         <a href="#downloads">Downloads</a>
-        <a href="#publish">Publish</a>
+        <a href="#about">Sobre</a>
       </nav>
     </header>
 
@@ -29,46 +29,46 @@
         <img src="assets/hero-kapitomo.png" alt="" class="hero-image">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-          <p class="eyebrow">Official free webtoon shelf</p>
+          <p class="eyebrow">Biblioteca oficial gratuita</p>
           <h1 id="hero-title">KapiTomo</h1>
           <p>
-            A clean home for your original works, with online reading,
-            public downloads, latest chapters, and a library made for browsing.
+            Leia minhas obras originais em um espaco feito para acompanhar
+            capitulos, explorar series e baixar arquivos para leitura offline.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#library">Explore works</a>
-            <a class="button secondary" href="#publish">How to add a work</a>
+            <a class="button primary" href="#library">Ler obras</a>
+            <a class="button secondary" href="#downloads">Baixar capitulos</a>
           </div>
         </div>
       </section>
 
-      <section class="toolbar-band" aria-label="Library controls">
+      <section class="toolbar-band" aria-label="Controles da biblioteca">
         <div class="toolbar">
           <label class="search-field">
-            <span>Search</span>
-            <input id="searchInput" type="search" placeholder="Title, genre, description">
+            <span>Buscar</span>
+            <input id="searchInput" type="search" placeholder="Titulo, genero, descricao">
           </label>
-          <div class="filter-group" aria-label="Genre filter">
-            <button class="filter active" type="button" data-filter="All">All</button>
-            <button class="filter" type="button" data-filter="Fantasy">Fantasy</button>
-            <button class="filter" type="button" data-filter="Slice of Life">Slice of Life</button>
-            <button class="filter" type="button" data-filter="Action">Action</button>
+          <div class="filter-group" aria-label="Filtro de genero">
+            <button class="filter active" type="button" data-filter="All">Tudo</button>
+            <button class="filter" type="button" data-filter="Fantasia">Fantasia</button>
+            <button class="filter" type="button" data-filter="Cotidiano">Cotidiano</button>
+            <button class="filter" type="button" data-filter="Acao">Acao</button>
           </div>
         </div>
       </section>
 
       <section class="section" id="library" aria-labelledby="library-title">
         <div class="section-heading">
-          <p class="eyebrow">Library</p>
-          <h2 id="library-title">Original works</h2>
+          <p class="eyebrow">Obras</p>
+          <h2 id="library-title">Minhas obras originais</h2>
         </div>
         <div id="worksGrid" class="works-grid" aria-live="polite"></div>
       </section>
 
       <section class="section latest-band" id="latest" aria-labelledby="latest-title">
         <div class="section-heading">
-          <p class="eyebrow">Latest</p>
-          <h2 id="latest-title">Recent chapters</h2>
+          <p class="eyebrow">Atualizacoes</p>
+          <h2 id="latest-title">Capitulos recentes</h2>
         </div>
         <div id="latestList" class="latest-list"></div>
       </section>
@@ -76,31 +76,31 @@
       <section class="section downloads-band" id="downloads" aria-labelledby="downloads-title">
         <div class="section-heading">
           <p class="eyebrow">Downloads</p>
-          <h2 id="downloads-title">Offline reading</h2>
+          <h2 id="downloads-title">Leitura offline</h2>
         </div>
         <div id="downloadsList" class="download-list"></div>
       </section>
 
-      <section class="section publish-band" id="publish" aria-labelledby="publish-title">
+      <section class="section publish-band" id="about" aria-labelledby="about-title">
         <div class="section-heading">
-          <p class="eyebrow">Creator setup</p>
-          <h2 id="publish-title">Add your real works</h2>
+          <p class="eyebrow">Sobre o KapiTomo</p>
+          <h2 id="about-title">Leia minhas obras feitas por mim</h2>
         </div>
         <div class="steps">
           <article>
             <strong>1</strong>
-            <h3>Edit the catalog</h3>
-            <p>Change titles, descriptions, chapters, cover paths, and download links in <code>data/works.js</code>.</p>
+            <h3>Obras oficiais</h3>
+            <p>Este site e dedicado somente as minhas obras originais, publicadas por mim para leitura livre.</p>
           </article>
           <article>
             <strong>2</strong>
-            <h3>Add files</h3>
-            <p>Place covers in <code>assets</code> and public PDFs, ZIPs, or CBZ files in <code>downloads</code>.</p>
+            <h3>Leitura gratuita</h3>
+            <p>Voce pode ler online quando quiser, acompanhar os capitulos recentes e voltar para continuar depois.</p>
           </article>
           <article>
             <strong>3</strong>
-            <h3>Publish free</h3>
-            <p>Upload this folder to a GitHub repository and enable GitHub Pages from the repository settings.</p>
+            <h3>Baixe para ler</h3>
+            <p>Os arquivos disponiveis para download sao liberados para consumo pessoal e leitura offline.</p>
           </article>
         </div>
       </section>
@@ -113,15 +113,15 @@
             <p id="readerMeta" class="reader-meta"></p>
             <h2 id="readerTitle"></h2>
           </div>
-          <button id="closeReader" class="icon-button" type="button" aria-label="Close reader">x</button>
+          <button id="closeReader" class="icon-button" type="button" aria-label="Fechar leitor">x</button>
         </div>
-        <div id="chapterTabs" class="chapter-tabs" role="tablist" aria-label="Chapters"></div>
+        <div id="chapterTabs" class="chapter-tabs" role="tablist" aria-label="Capitulos"></div>
         <article id="readerPages" class="reader-pages"></article>
       </div>
     </dialog>
 
     <footer class="site-footer">
-      <p>KapiTomo is a static official webtoon site. Replace the sample works with your own creations.</p>
+      <p>KapiTomo e meu espaco oficial para publicar obras autorais de leitura livre.</p>
     </footer>
 
     <script src="data/works.js"></script>

@@ -1,6 +1,6 @@
 # KapiTomo
 
-KapiTomo is a static official webtoon site for your own free works. It has a hero page, searchable library, genre filters, chapter reader, download links, and a small creator setup section.
+KapiTomo e um site estatico oficial para publicar minhas obras autorais de leitura livre. Ele tem pagina inicial, biblioteca pesquisavel, filtros por genero, leitor de capitulos e links de download.
 
 ## Edit your works
 
@@ -19,15 +19,15 @@ Put cover images in `assets` and downloadable files in `downloads`.
 
 Open `index.html` in a browser.
 
-## Publish for free
+## Site online
 
-GitHub Pages can host this static site without a paid domain:
+GitHub Pages hospeda este site estatico sem dominio pago.
 
 Expected public URL after publishing:
 
 `https://nanquimori.github.io/KapiTomo/`
 
-Steps:
+Configuracao usada:
 
 1. Create a public GitHub repository named `KapiTomo`.
 2. Push these files to the `main` branch.
