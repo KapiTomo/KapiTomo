@@ -13,7 +13,7 @@ const workTemplate = document.querySelector("#workTemplate");
 const chapterTemplate = document.querySelector("#chapterTemplate");
 
 let activeFilter = "All";
-let query = "";
+let query = new URLSearchParams(window.location.search).get("q") || "";
 
 function getWork(workId) {
   return works.find((item) => item.id === workId);
@@ -247,6 +247,10 @@ filters.forEach((button) => {
     renderWorks();
   });
 });
+
+if (query) {
+  searchInput.value = query;
+}
 
 window.addEventListener("hashchange", handleRoute);
 

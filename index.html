@@ -5,10 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       name="description"
-      content="KapiTomo e a biblioteca oficial gratuita para ler e baixar minhas obras originais."
+      content="KapiTomo e o site oficial para ler minhas obras originais de webtoon, acompanhar capitulos e baixar arquivos gratuitos para leitura offline."
     >
-    <title>KapiTomo</title>
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Nanquimori">
+    <meta name="keywords" content="KapiTomo, webtoon, manga, obras originais, capitulos, leitura online, Nanquimori">
+    <link rel="canonical" href="https://nanquimori.github.io/KapiTomo/">
+    <meta property="og:site_name" content="KapiTomo">
+    <meta property="og:title" content="KapiTomo - Minhas obras originais">
+    <meta
+      property="og:description"
+      content="Leia minhas obras originais no KapiTomo, acompanhe capitulos e baixe arquivos gratuitos para leitura offline."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nanquimori.github.io/KapiTomo/">
+    <meta property="og:image" content="https://nanquimori.github.io/KapiTomo/assets/hero-kapitomo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="KapiTomo - Minhas obras originais">
+    <meta
+      name="twitter:description"
+      content="Site oficial para ler minhas obras originais de webtoon e baixar capitulos gratuitos."
+    >
+    <meta name="twitter:image" content="https://nanquimori.github.io/KapiTomo/assets/hero-kapitomo.png">
+    <title>KapiTomo - Minhas obras originais de webtoon</title>
+    <link rel="manifest" href="site.webmanifest">
     <link rel="stylesheet" href="styles.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "KapiTomo",
+        "alternateName": "KapiTomo Webtoon",
+        "url": "https://nanquimori.github.io/KapiTomo/",
+        "description": "KapiTomo e o site oficial para ler minhas obras originais de webtoon, acompanhar capitulos e baixar arquivos gratuitos.",
+        "creator": {
+          "@type": "Person",
+          "name": "Nanquimori"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://nanquimori.github.io/KapiTomo/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
   </head>
   <body>
     <header class="site-header">
@@ -61,6 +101,14 @@
         <div class="section-heading">
           <p class="eyebrow">Obras</p>
           <h2 id="library-title">Minhas obras originais</h2>
+        </div>
+        <div class="crawler-links" aria-label="Links das obras do KapiTomo">
+          <a href="#obra/aurora-archive">Aurora Archive no KapiTomo</a>
+          <a href="#ler/aurora-archive/0">Ler Aurora Archive Capitulo 01 no KapiTomo</a>
+          <a href="#obra/rainline-cafe">Rainline Cafe no KapiTomo</a>
+          <a href="#ler/rainline-cafe/0">Ler Rainline Cafe Capitulo 01 no KapiTomo</a>
+          <a href="#obra/neon-runner">Neon Runner no KapiTomo</a>
+          <a href="#ler/neon-runner/0">Ler Neon Runner Capitulo 01 no KapiTomo</a>
         </div>
         <div id="worksGrid" class="works-grid" aria-live="polite"></div>
       </section>
