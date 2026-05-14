@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="KapiTomo is a free official webtoon library for reading and downloading original works."
+    >
+    <title>KapiTomo</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="KapiTomo home">
+        <span class="brand-mark">K</span>
+        <span>KapiTomo</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#library">Library</a>
+        <a href="#latest">Latest</a>
+        <a href="#downloads">Downloads</a>
+        <a href="#publish">Publish</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <img src="assets/hero-kapitomo.png" alt="" class="hero-image">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Official free webtoon shelf</p>
+          <h1 id="hero-title">KapiTomo</h1>
+          <p>
+            A clean home for your original works, with online reading,
+            public downloads, latest chapters, and a library made for browsing.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#library">Explore works</a>
+            <a class="button secondary" href="#publish">How to add a work</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="toolbar-band" aria-label="Library controls">
+        <div class="toolbar">
+          <label class="search-field">
+            <span>Search</span>
+            <input id="searchInput" type="search" placeholder="Title, genre, description">
+          </label>
+          <div class="filter-group" aria-label="Genre filter">
+            <button class="filter active" type="button" data-filter="All">All</button>
+            <button class="filter" type="button" data-filter="Fantasy">Fantasy</button>
+            <button class="filter" type="button" data-filter="Slice of Life">Slice of Life</button>
+            <button class="filter" type="button" data-filter="Action">Action</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="library" aria-labelledby="library-title">
+        <div class="section-heading">
+          <p class="eyebrow">Library</p>
+          <h2 id="library-title">Original works</h2>
+        </div>
+        <div id="worksGrid" class="works-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="section latest-band" id="latest" aria-labelledby="latest-title">
+        <div class="section-heading">
+          <p class="eyebrow">Latest</p>
+          <h2 id="latest-title">Recent chapters</h2>
+        </div>
+        <div id="latestList" class="latest-list"></div>
+      </section>
+
+      <section class="section downloads-band" id="downloads" aria-labelledby="downloads-title">
+        <div class="section-heading">
+          <p class="eyebrow">Downloads</p>
+          <h2 id="downloads-title">Offline reading</h2>
+        </div>
+        <div id="downloadsList" class="download-list"></div>
+      </section>
+
+      <section class="section publish-band" id="publish" aria-labelledby="publish-title">
+        <div class="section-heading">
+          <p class="eyebrow">Creator setup</p>
+          <h2 id="publish-title">Add your real works</h2>
+        </div>
+        <div class="steps">
+          <article>
+            <strong>1</strong>
+            <h3>Edit the catalog</h3>
+            <p>Change titles, descriptions, chapters, cover paths, and download links in <code>data/works.js</code>.</p>
+          </article>
+          <article>
+            <strong>2</strong>
+            <h3>Add files</h3>
+            <p>Place covers in <code>assets</code> and public PDFs, ZIPs, or CBZ files in <code>downloads</code>.</p>
+          </article>
+          <article>
+            <strong>3</strong>
+            <h3>Publish free</h3>
+            <p>Upload this folder to a GitHub repository and enable GitHub Pages from the repository settings.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <dialog id="readerDialog" class="reader-dialog" aria-labelledby="readerTitle">
+      <div class="reader-shell">
+        <div class="reader-topbar">
+          <div>
+            <p id="readerMeta" class="reader-meta"></p>
+            <h2 id="readerTitle"></h2>
+          </div>
+          <button id="closeReader" class="icon-button" type="button" aria-label="Close reader">x</button>
+        </div>
+        <div id="chapterTabs" class="chapter-tabs" role="tablist" aria-label="Chapters"></div>
+        <article id="readerPages" class="reader-pages"></article>
+      </div>
+    </dialog>
+
+    <footer class="site-footer">
+      <p>KapiTomo is a static official webtoon site. Replace the sample works with your own creations.</p>
+    </footer>
+
+    <script src="data/works.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
