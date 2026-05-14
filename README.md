@@ -2,6 +2,18 @@
 
 KapiTomo e um site estatico oficial para publicar minhas obras autorais de leitura livre. Ele tem pagina inicial, biblioteca pesquisavel, filtros por genero, leitor de capitulos e links de download.
 
+## Plugin oficial
+
+O plugin oficial do KapiTomo para o Nyxovira fica em `downloads/plugins/kapitomo.zip`.
+
+Catalogo remoto:
+
+`https://kapitomo.github.io/KapiTomo/plugins/catalog.json`
+
+Canal oficial:
+
+`https://www.youtube.com/@KapiTomo`
+
 ## Edit your works
 
 Update `data/works.js`:

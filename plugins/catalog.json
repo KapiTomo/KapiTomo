@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "plugins": [
+    {
+      "id": "kapitomo",
+      "package_url": "https://kapitomo.github.io/KapiTomo/downloads/plugins/kapitomo.zip",
+      "sha256": "e84eaade2fa5fe88e702cbca0c0bade8fff0f127353521952ec660fb9223f9da"
+    }
+  ]
+}

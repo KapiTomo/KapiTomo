@@ -353,6 +353,7 @@ a {
 
 .latest-band,
 .downloads-band,
+.plugin-band,
 .publish-band {
   width: 100%;
   padding-inline: max(18px, calc((100% - 1180px) / 2));
@@ -416,6 +417,45 @@ a {
 
 .download-item strong {
   color: var(--teal-dark);
+}
+
+.official-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.official-link {
+  display: grid;
+  gap: 8px;
+  min-height: 112px;
+  align-content: center;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.official-link span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.official-link strong {
+  font-size: 1.05rem;
+}
+
+.official-link.primary-link {
+  color: #fff;
+  background: var(--teal);
+  border-color: var(--teal);
+}
+
+.official-link.primary-link span {
+  color: rgba(255, 255, 255, 0.74);
 }
 
 .steps {
