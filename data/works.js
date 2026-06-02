@@ -6,9 +6,10 @@
     genre: "Fantasia",
     format: "Novel",
     rating: "Livre",
+    testNote: "OBS: Esta obra e apenas de teste.",
     cover: "assets/cover-garoto-outro-mundo.png",
     description:
-      "OBS: Esta obra e apenas de teste. Aos 14 anos, Caio acorda em um mundo sem humanos, onde dragoes, goblins e elfos atacam qualquer estranho. Para voltar vivo, ele precisa aprender a sobreviver sem virar heroi.",
+      "Aos 14 anos, Caio acorda em um mundo sem humanos, onde dragoes, goblins e elfos atacam qualquer estranho. Para voltar vivo, ele precisa aprender a sobreviver sem virar heroi.",
     chapters: [
       {
         title: "Capitulo 01 - A Queda",
@@ -71,9 +72,10 @@
     genre: "Fantasia",
     format: "Quadrinho",
     rating: "Livre",
+    testNote: "OBS: Esta obra e apenas de teste.",
     cover: "assets/cover-garoto-outro-mundo.png",
     description:
-      "OBS: Esta obra e apenas de teste. Versao em quadrinhos da novel O Mundo Sem Humanos, contada apenas por paginas ilustradas.",
+      "Versao em quadrinhos da novel O Mundo Sem Humanos, contada apenas por paginas ilustradas.",
     chapters: [
       {
         title: "Capitulo 01 - A Queda",
