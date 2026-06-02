@@ -85,7 +85,6 @@ function renderWorks() {
       </a>
       <div class="work-card-body">
         <h3><a href="${workUrl(work)}">${work.title}</a></h3>
-        <p>${work.chapters.length} capitulo${work.chapters.length === 1 ? "" : "s"} pronto</p>
       </div>
     `;
     worksGrid.appendChild(card);
