@@ -2,7 +2,6 @@ const works = window.KAPI_TOMO_WORKS || [];
 
 const worksGrid = document.querySelector("#worksGrid");
 const latestList = document.querySelector("#latestList");
-const downloadsList = document.querySelector("#downloadsList");
 const searchInput = document.querySelector("#searchInput");
 const filters = [...document.querySelectorAll(".filter")];
 const homeSections = [...document.querySelectorAll("main > section:not(.route-view)")];
@@ -111,19 +110,6 @@ function renderLatest() {
     .join("");
 }
 
-function renderDownloads() {
-  downloadsList.innerHTML = works
-    .map(
-      (work) => `
-        <a class="download-item" href="${work.download}" download>
-          <span>${work.title}</span>
-          <strong>${work.genre}</strong>
-        </a>
-      `
-    )
-    .join("");
-}
-
 function renderWorkPage(work) {
   const fragment = workTemplate.content.cloneNode(true);
   const page = fragment.querySelector(".manga-page");
@@ -144,7 +130,6 @@ function renderWorkPage(work) {
 
   fragment.querySelector(".manga-actions").innerHTML = `
     <a class="button primary" href="${chapterUrl(work, 0)}">Ler primeiro capitulo</a>
-    <a class="button secondary" href="${work.download}" download>Baixar arquivo</a>
   `;
 
   fragment.querySelector(".manga-facts").innerHTML = `
@@ -256,5 +241,4 @@ window.addEventListener("hashchange", handleRoute);
 
 renderWorks();
 renderLatest();
-renderDownloads();
 handleRoute();
