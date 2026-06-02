@@ -732,6 +732,27 @@ code {
   line-height: 1.65;
 }
 
+.manga-test-note {
+  display: inline-flex;
+  width: fit-content;
+  max-width: 100%;
+  margin: 20px 0 0;
+  padding: 10px 12px;
+  color: #1b1300;
+  background: #ffc44d;
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  border-radius: 8px;
+  box-shadow: 0 14px 26px rgba(255, 196, 77, 0.18);
+  font-size: 0.86rem;
+  font-weight: 900;
+  line-height: 1.35;
+  text-transform: uppercase;
+}
+
+.manga-test-note[hidden] {
+  display: none;
+}
+
 .manga-actions {
   margin-top: 28px;
 }
@@ -1356,6 +1377,10 @@ body {
   font-size: 0.98rem;
   line-height: 1.6;
   text-align: left;
+}
+
+.manga-test-note {
+  margin-top: 18px;
 }
 
 .manga-content {

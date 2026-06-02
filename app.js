@@ -106,6 +106,8 @@ function renderWorkPage(work) {
   fragment.querySelector(".manga-cover").alt = `Capa de ${work.title}`;
   fragment.querySelector(".manga-genre").textContent = "";
   fragment.querySelector("h1").textContent = work.title;
+  fragment.querySelector(".manga-test-note").textContent = work.testNote || "";
+  fragment.querySelector(".manga-test-note").hidden = !work.testNote;
   fragment.querySelector(".manga-description").textContent = work.description;
   fragment.querySelector(".chapter-count").textContent = `${work.chapters.length} capitulo${work.chapters.length === 1 ? "" : "s"}`;
 
@@ -123,7 +125,6 @@ function renderWorkPage(work) {
     <h2>Informacoes</h2>
     <dl>
       <div><dt>Autor</dt><dd>KapiTomo</dd></div>
-      <div><dt>Tipo</dt><dd>${work.format || "Obra"}</dd></div>
       <div><dt>Genero</dt><dd>${work.genre}</dd></div>
       <div><dt>Status</dt><dd>${work.status}</dd></div>
       <div><dt>Classificacao</dt><dd>${work.rating}</dd></div>
