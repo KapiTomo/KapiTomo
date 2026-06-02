@@ -1,7 +1,6 @@
 const works = window.KAPI_TOMO_WORKS || [];
 
 const worksGrid = document.querySelector("#worksGrid");
-const latestList = document.querySelector("#latestList");
 const searchInput = document.querySelector("#searchInput");
 const filters = [...document.querySelectorAll(".filter")];
 const homeSections = [...document.querySelectorAll("main > section:not(.route-view)")];
@@ -82,60 +81,21 @@ function renderWorks() {
     card.innerHTML = `
       <a class="work-cover-link" href="${workUrl(work)}" aria-label="Abrir ${work.title}">
         <img src="${work.cover}" alt="Capa de ${work.title}" loading="lazy">
+        <span class="work-cover-badge">${work.genre}</span>
       </a>
       <div class="work-card-body">
-        <div class="work-tags">
-          <span>${work.genre}</span>
-          <span>${work.status}</span>
-          <span>${work.rating}</span>
-        </div>
         <h3><a href="${workUrl(work)}">${work.title}</a></h3>
-        <p>${work.description}</p>
-        <div class="card-actions">
-          <a class="button primary small" href="${workUrl(work)}">Ver obra</a>
-          <a class="button secondary small" href="${chapterUrl(work, 0)}">Comecar leitura</a>
-        </div>
+        <p>${work.chapters.length} capitulo${work.chapters.length === 1 ? "" : "s"} pronto</p>
       </div>
     `;
     worksGrid.appendChild(card);
   });
 }
 
-function renderLatest() {
-  const latest = works
-    .flatMap((work) =>
-      work.chapters.map((chapter, chapterIndex) => ({
-        work,
-        chapter,
-        chapterIndex
-      }))
-    )
-    .slice(0, 6);
-
-  latestList.innerHTML = latest
-    .map(
-      ({ work, chapter, chapterIndex }) => `
-        <article class="latest-item">
-          <a href="${workUrl(work)}">
-            <img src="${work.cover}" alt="" loading="lazy">
-          </a>
-          <div>
-            <span>${work.title}</span>
-            <h3><a href="${chapterUrl(work, chapterIndex)}">${chapter.title}</a></h3>
-            <p>${chapter.date}</p>
-          </div>
-          <a class="button secondary small" href="${chapterUrl(work, chapterIndex)}">Ler</a>
-        </article>
-      `
-    )
-    .join("");
-}
-
 function renderWorkPage(work) {
   const fragment = workTemplate.content.cloneNode(true);
   const page = fragment.querySelector(".manga-page");
 
-  fragment.querySelector(".manga-backdrop").src = work.cover;
   fragment.querySelector(".manga-cover").src = work.cover;
   fragment.querySelector(".manga-cover").alt = `Capa de ${work.title}`;
   fragment.querySelector(".manga-genre").textContent = work.genre;
@@ -276,5 +236,4 @@ if (query) {
 window.addEventListener("hashchange", handleRoute);
 
 renderWorks();
-renderLatest();
 handleRoute();

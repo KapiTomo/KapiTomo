@@ -1075,3 +1075,311 @@ code {
     flex-direction: column;
   }
 }
+
+/* Nyxalira-inspired catalog pass */
+:root {
+  color-scheme: dark;
+  --app-bg: #050407;
+  --app-surface: rgba(20, 12, 20, 0.94);
+  --app-surface-2: rgba(14, 10, 18, 0.96);
+  --app-line: rgba(255, 255, 255, 0.08);
+  --app-text: #f7f3ec;
+  --app-muted: #9a92a4;
+  --app-soft: #d4c9dd;
+  --app-gold: #f3b347;
+  --app-coral: #ff7b58;
+}
+
+body {
+  color: var(--app-text);
+  background:
+    radial-gradient(circle at top left, rgba(86, 51, 190, 0.18), transparent 34rem),
+    radial-gradient(circle at top right, rgba(203, 36, 61, 0.14), transparent 32rem),
+    var(--app-bg);
+}
+
+.site-header {
+  background: rgba(5, 4, 7, 0.88);
+  border-bottom-color: var(--app-line);
+}
+
+.brand,
+.nav-links {
+  color: var(--app-text);
+}
+
+.brand-mark {
+  color: #140d12;
+  background: var(--app-gold);
+}
+
+.hero {
+  min-height: 430px;
+}
+
+.hero-overlay {
+  background:
+    linear-gradient(90deg, rgba(5, 4, 7, 0.94), rgba(5, 4, 7, 0.58) 58%, rgba(5, 4, 7, 0.2)),
+    linear-gradient(0deg, rgba(5, 4, 7, 1), rgba(5, 4, 7, 0.12) 54%);
+}
+
+.hero-content {
+  margin-bottom: 58px;
+}
+
+.hero h1 {
+  font-size: clamp(2.8rem, 8vw, 6.2rem);
+  line-height: 0.94;
+}
+
+.eyebrow {
+  color: var(--app-coral);
+}
+
+.toolbar-band {
+  background: rgba(10, 7, 13, 0.98);
+  border-bottom-color: var(--app-line);
+}
+
+.search-field {
+  color: var(--app-muted);
+}
+
+.search-field input {
+  color: var(--app-text);
+  background: rgba(5, 4, 7, 0.88);
+  border-color: var(--app-line);
+}
+
+.filter {
+  color: var(--app-soft);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.filter.active {
+  color: #140d12;
+  background: var(--app-gold);
+}
+
+.section {
+  padding: 46px 0;
+}
+
+.section-heading {
+  display: grid;
+  align-items: start;
+  justify-content: start;
+  gap: 4px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.section-heading h2 {
+  font-size: clamp(1.35rem, 3vw, 2.35rem);
+  line-height: 1.04;
+  text-align: left;
+}
+
+#library .section-heading h2 {
+  display: none;
+}
+
+.works-grid {
+  grid-template-columns: repeat(auto-fit, minmax(168px, 204px));
+  gap: 16px;
+  justify-content: start;
+}
+
+.work-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  align-content: start;
+  padding: 10px;
+  color: var(--app-text);
+  background:
+    linear-gradient(155deg, rgba(203, 36, 61, 0.12), transparent 38%),
+    linear-gradient(220deg, rgba(86, 51, 190, 0.12), transparent 54%),
+    var(--app-surface);
+  border-color: var(--app-line);
+  border-radius: 18px;
+  box-shadow: 0 18px 34px rgba(0, 0, 0, 0.28);
+}
+
+.work-cover-link {
+  position: relative;
+}
+
+.work-cover-link img {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.work-cover-badge {
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  z-index: 1;
+  padding: 5px 8px;
+  color: #140d12;
+  background: var(--app-gold);
+  border-radius: 999px;
+  font-size: 0.68rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.work-card-body {
+  align-self: start;
+  padding: 0 2px 4px;
+}
+
+.work-card h3 {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.2;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.work-card p {
+  margin: 4px 0 0;
+  color: var(--app-muted);
+  font-size: 0.78rem;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.plugin-band,
+.publish-band {
+  background: transparent;
+}
+
+.official-link,
+.steps article,
+.manga-facts,
+.chapter-list-wrap {
+  color: var(--app-text);
+  background:
+    linear-gradient(155deg, rgba(203, 36, 61, 0.1), transparent 38%),
+    linear-gradient(220deg, rgba(86, 51, 190, 0.1), transparent 54%),
+    var(--app-surface);
+  border-color: var(--app-line);
+  box-shadow: 0 18px 34px rgba(0, 0, 0, 0.22);
+}
+
+.official-link span,
+.steps p,
+.manga-facts dt,
+.chapter-row small,
+.site-footer p {
+  color: var(--app-muted);
+}
+
+.manga-page {
+  color: var(--app-text);
+  background: var(--app-bg);
+}
+
+.manga-layout {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  align-items: start;
+  gap: 26px;
+  width: min(980px, calc(100% - 36px));
+  min-height: 0;
+  margin: 0 auto;
+  padding: 42px 0 24px;
+}
+
+.manga-cover {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-color: var(--app-line);
+  border-radius: 18px;
+  box-shadow: 0 18px 34px rgba(0, 0, 0, 0.28);
+}
+
+.manga-info {
+  text-align: left;
+}
+
+.manga-info h1 {
+  max-width: 720px;
+  font-size: clamp(1.8rem, 4vw, 3.2rem);
+  line-height: 1.06;
+  text-align: left;
+}
+
+.manga-badges span {
+  color: var(--app-soft);
+  background: rgba(255, 255, 255, 0.05);
+  border-color: var(--app-line);
+  border-radius: 999px;
+}
+
+.manga-description {
+  max-width: 600px;
+  color: var(--app-soft);
+  font-size: 0.98rem;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.manga-content {
+  grid-template-columns: 230px minmax(0, 1fr);
+  gap: 20px;
+  width: min(980px, calc(100% - 36px));
+  padding-bottom: 74px;
+}
+
+.chapter-row {
+  color: var(--app-text);
+}
+
+.chapter-row em {
+  color: var(--app-gold);
+}
+
+.site-footer {
+  background: #08060a;
+  border-top: 1px solid var(--app-line);
+}
+
+@media (max-width: 760px) {
+  .hero {
+    min-height: 420px;
+  }
+
+  .works-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .work-card {
+    grid-template-columns: 1fr;
+  }
+
+  .work-card h3 {
+    font-size: 0.88rem;
+  }
+
+  .work-card p {
+    font-size: 0.72rem;
+  }
+
+  .manga-layout,
+  .manga-content {
+    grid-template-columns: 1fr;
+  }
+
+  .manga-cover {
+    width: min(210px, 58vw);
+  }
+}

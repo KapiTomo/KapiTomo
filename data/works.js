@@ -5,7 +5,7 @@ window.KAPI_TOMO_WORKS = [
     status: "Teste",
     genre: "Fantasia",
     rating: "Livre",
-    cover: "assets/hero-kapitomo.png",
+    cover: "assets/cover-novel-teste.png",
     description:
       "Uma novel de fantasia para testar a leitura no KapiTomo e a importacao pelo Nyxalira. A unica imagem usada pela obra e a capa.",
     chapters: [
