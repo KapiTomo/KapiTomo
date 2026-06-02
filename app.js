@@ -89,6 +89,7 @@ function renderWorks() {
     card.innerHTML = `
       <a class="work-cover-link" href="${workUrl(work)}" aria-label="Abrir ${work.title}">
         <img src="${work.cover}" alt="Capa de ${work.title}">
+        <span class="work-cover-badge">${work.format || "Obra"}</span>
       </a>
       <div class="work-card-body">
         <h3><a href="${workUrl(work)}">${work.title}</a></h3>

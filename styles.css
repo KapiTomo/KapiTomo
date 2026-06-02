@@ -1244,6 +1244,7 @@ body {
 
 .work-cover-link {
   position: relative;
+  display: block;
 }
 
 .work-cover-link img {
@@ -1258,7 +1259,23 @@ body {
 }
 
 .work-cover-badge {
-  display: none;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 1;
+  display: inline-flex;
+  max-width: calc(100% - 16px);
+  padding: 5px 8px;
+  color: #181000;
+  background: #ffc44d;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 6px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+  font-size: 0.62rem;
+  font-weight: 1000;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0;
 }
 
 .work-card-body {
