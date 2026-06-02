@@ -8,7 +8,7 @@
     rating: "Livre",
     cover: "assets/cover-garoto-outro-mundo.png",
     description:
-      "Aos 14 anos, Caio acorda em um mundo sem humanos, onde dragoes, goblins e elfos atacam qualquer estranho. Para voltar vivo, ele precisa aprender a sobreviver sem virar heroi.",
+      "OBS: Esta obra e apenas de teste. Aos 14 anos, Caio acorda em um mundo sem humanos, onde dragoes, goblins e elfos atacam qualquer estranho. Para voltar vivo, ele precisa aprender a sobreviver sem virar heroi.",
     chapters: [
       {
         title: "Capitulo 01 - A Queda",
@@ -66,14 +66,14 @@
   },
   {
     id: "garoto-outro-mundo-imagens",
-    title: "O Mundo Sem Humanos - Imagens",
+    title: "O Mundo Sem Humanos: Quadrinhos",
     status: "Completa",
     genre: "Fantasia",
-    format: "Adaptacao em Imagens",
+    format: "Quadrinho",
     rating: "Livre",
     cover: "assets/cover-garoto-outro-mundo.png",
     description:
-      "Adaptacao visual da novel O Mundo Sem Humanos, com paginas ilustradas em sequencia.",
+      "OBS: Esta obra e apenas de teste. Versao em quadrinhos da novel O Mundo Sem Humanos, contada apenas por paginas ilustradas.",
     chapters: [
       {
         title: "Capitulo 01 - A Queda",
