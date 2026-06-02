@@ -46,6 +46,27 @@ function workUrl(work) {
   return `#obra/${work.id}`;
 }
 
+function getChapterParagraphs(chapter) {
+  if (Array.isArray(chapter.paragraphs) && chapter.paragraphs.length) {
+    return chapter.paragraphs;
+  }
+
+  return Array.isArray(chapter.pages) ? chapter.pages : [];
+}
+
+function getWordCount(textItems) {
+  return textItems
+    .join(" ")
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean)
+    .length;
+}
+
+function getReadingMinutes(wordCount) {
+  return Math.max(1, Math.ceil(wordCount / 180));
+}
+
 function renderWorks() {
   const visibleWorks = works.filter(matchesWork);
   worksGrid.innerHTML = "";
@@ -170,27 +191,42 @@ function renderChapterPage(work, chapterIndex = 0) {
   const nextIndex = safeIndex < work.chapters.length - 1 ? safeIndex + 1 : null;
   const fragment = chapterTemplate.content.cloneNode(true);
   const page = fragment.querySelector(".chapter-page");
+  const paragraphs = getChapterParagraphs(chapter);
+  const isNovel = chapter.contentType === "novel";
+  const wordCount = getWordCount(paragraphs);
 
   fragment.querySelector(".back-link").href = workUrl(work);
   fragment.querySelector(".eyebrow").textContent = work.title;
-  fragment.querySelector("h1").textContent = chapter.title;
+  fragment.querySelector("h1").textContent = isNovel ? `Capitulo ${String(safeIndex + 1)}` : chapter.title;
   fragment.querySelector(".chapter-tools").innerHTML = `
     ${previousIndex === null ? '<span class="button ghost disabled">Anterior</span>' : `<a class="button secondary" href="${chapterUrl(work, previousIndex)}">Anterior</a>`}
     <a class="button secondary" href="${workUrl(work)}">Lista de capitulos</a>
     ${nextIndex === null ? '<span class="button ghost disabled">Proximo</span>' : `<a class="button primary" href="${chapterUrl(work, nextIndex)}">Proximo</a>`}
   `;
 
-  fragment.querySelector(".webtoon-strip").innerHTML = [
-    `<section class="webtoon-cover-panel"><img src="${work.cover}" alt="Capa de ${work.title}"><div><span>${work.title}</span><strong>${chapter.title}</strong></div></section>`,
-    ...chapter.pages.map(
-      (pageText, index) => `
-        <section class="webtoon-panel">
-          <small>${String(index + 1).padStart(2, "0")}</small>
-          <p>${pageText}</p>
-        </section>
-      `
-    )
-  ].join("");
+  if (isNovel) {
+    page.classList.add("novel-page");
+    fragment.querySelector(".chapter-header").insertAdjacentHTML(
+      "beforeend",
+      `<p class="novel-meta">${wordCount} palavras <span>~${getReadingMinutes(wordCount)} min de leitura</span></p>`
+    );
+    fragment.querySelector(".webtoon-strip").className = "novel-reader";
+    fragment.querySelector(".novel-reader").innerHTML = paragraphs
+      .map((paragraph) => `<p>${paragraph}</p>`)
+      .join("");
+  } else {
+    fragment.querySelector(".webtoon-strip").innerHTML = [
+      `<section class="webtoon-cover-panel"><img src="${work.cover}" alt="Capa de ${work.title}"><div><span>${work.title}</span><strong>${chapter.title}</strong></div></section>`,
+      ...paragraphs.map(
+        (pageText, index) => `
+          <section class="webtoon-panel">
+            <small>${String(index + 1).padStart(2, "0")}</small>
+            <p>${pageText}</p>
+          </section>
+        `
+      )
+    ].join("");
+  }
 
   fragment.querySelector(".chapter-footer").innerHTML = `
     <a class="button secondary" href="${workUrl(work)}">Voltar para ${work.title}</a>
