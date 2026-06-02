@@ -1,119 +1,125 @@
 ﻿{
-  "mode": "android-catalog",
-  "folderName": "KapiTomo",
-  "folderPath": "https://kapitomo.github.io/KapiTomo/api/catalog.json",
-  "libraries": [
-    {
-      "id": "kapitomo",
-      "name": "KapiTomo",
-      "path": "https://kapitomo.github.io/KapiTomo/"
-    }
-  ],
-  "works": [
-    {
-      "libraryId": "kapitomo",
-      "libraryName": "KapiTomo",
-      "folderName": "garoto-outro-mundo",
-      "title": "O Mundo Sem Humanos",
-      "author": "KapiTomo",
-      "type": "Novel",
-      "isTest": true,
-      "notice": "OBS: Esta obra e apenas de teste.",
-      "summary": "Aos 14 anos, Caio acorda em um mundo sem humanos, onde dragoes, goblins e elfos atacam qualquer estranho.",
-      "sourceUrl": "https://kapitomo.github.io/KapiTomo/manga/garoto-outro-mundo/",
-      "coverName": "cover-garoto-outro-mundo.png",
-      "coverSourceUrl": "https://kapitomo.github.io/KapiTomo/assets/cover-garoto-outro-mundo.png",
-      "coverLastModified": 1780358400000,
-      "updatedAt": 1780358400000,
-      "chapters": [
-        {
-          "folderName": "capitulo-001",
-          "title": "Capitulo 01 - A Queda",
-          "chapterName": "A Queda",
-          "contentType": "novel",
-          "pageCount": 0,
-          "totalImagesExpected": 0,
-          "wordCount": 340,
-          "paragraphCount": 9,
-          "textFileName": "capitulo-001.txt",
-          "textSourceUrl": "https://kapitomo.github.io/KapiTomo/api/garoto-outro-mundo/capitulo-001.txt",
-          "manifestSourceUrl": "https://kapitomo.github.io/KapiTomo/api/garoto-outro-mundo/capitulo-001.json",
-          "updatedAt": 1780358400000
-        },
-        {
-          "folderName": "capitulo-002",
-          "title": "Capitulo 02 - A Floresta que Caca",
-          "chapterName": "A Floresta que Caca",
-          "contentType": "novel",
-          "pageCount": 0,
-          "totalImagesExpected": 0,
-          "wordCount": 334,
-          "paragraphCount": 10,
-          "textFileName": "capitulo-002.txt",
-          "textSourceUrl": "https://kapitomo.github.io/KapiTomo/api/garoto-outro-mundo/capitulo-002.txt",
-          "manifestSourceUrl": "https://kapitomo.github.io/KapiTomo/api/garoto-outro-mundo/capitulo-002.json",
-          "updatedAt": 1780358400000
-        },
-        {
-          "folderName": "capitulo-003",
-          "title": "Capitulo 03 - A Saida de Pedra",
-          "chapterName": "A Saida de Pedra",
-          "contentType": "novel",
-          "pageCount": 0,
-          "totalImagesExpected": 0,
-          "wordCount": 369,
-          "paragraphCount": 12,
-          "textFileName": "capitulo-003.txt",
-          "textSourceUrl": "https://kapitomo.github.io/KapiTomo/api/garoto-outro-mundo/capitulo-003.txt",
-          "manifestSourceUrl": "https://kapitomo.github.io/KapiTomo/api/garoto-outro-mundo/capitulo-003.json",
-          "updatedAt": 1780358400000
-        }
-      ]
-    },
-    {
-      "libraryId": "kapitomo",
-      "libraryName": "KapiTomo",
-      "folderName": "garoto-outro-mundo-imagens",
-      "title": "O Mundo Sem Humanos: Quadrinhos",
-      "author": "KapiTomo",
-      "type": "Quadrinho",
-      "isTest": true,
-      "notice": "OBS: Esta obra e apenas de teste.",
-      "summary": "Versao em quadrinhos da novel, contada apenas por paginas ilustradas.",
-      "sourceUrl": "https://kapitomo.github.io/KapiTomo/manga/garoto-outro-mundo-imagens/",
-      "coverName": "cover-garoto-outro-mundo.png",
-      "coverSourceUrl": "https://kapitomo.github.io/KapiTomo/assets/cover-garoto-outro-mundo.png",
-      "coverLastModified": 1780358400000,
-      "updatedAt": 1780358400000,
-      "chapters": [
-        {
-          "folderName": "capitulo-001",
-          "title": "Capitulo 01 - A Queda",
-          "chapterName": "A Queda",
-          "pageCount": 2,
-          "totalImagesExpected": 2,
-          "manifestSourceUrl": "https://kapitomo.github.io/KapiTomo/api/garoto-outro-mundo-imagens/capitulo-001.json",
-          "updatedAt": 1780358400000
-        },
-        {
-          "folderName": "capitulo-002",
-          "title": "Capitulo 02 - A Floresta que Caca",
-          "chapterName": "A Floresta que Caca",
-          "pageCount": 2,
-          "totalImagesExpected": 2,
-          "manifestSourceUrl": "https://kapitomo.github.io/KapiTomo/api/garoto-outro-mundo-imagens/capitulo-002.json",
-          "updatedAt": 1780358400000
-        },
-        {
-          "folderName": "capitulo-003",
-          "title": "Capitulo 03 - A Saida de Pedra",
-          "chapterName": "A Saida de Pedra",
-          "pageCount": 2,
-          "totalImagesExpected": 2,
-          "manifestSourceUrl": "https://kapitomo.github.io/KapiTomo/api/garoto-outro-mundo-imagens/capitulo-003.json",
-          "updatedAt": 1780358400000
-        }
-      ]
-    }
-  ]
+    "mode":  "android-catalog",
+    "folderName":  "KapiTomo",
+    "folderPath":  "https://kapitomo.github.io/KapiTomo/api/catalog.json",
+    "libraries":  [
+                      {
+                          "id":  "kapitomo",
+                          "name":  "KapiTomo",
+                          "path":  "https://kapitomo.github.io/KapiTomo/"
+                      }
+                  ],
+    "works":  [
+                  {
+                      "libraryId":  "kapitomo",
+                      "libraryName":  "KapiTomo",
+                      "folderName":  "garoto-outro-mundo",
+                      "title":  "O Mundo Sem Humanos",
+                      "author":  "KapiTomo",
+                      "type":  "Novel",
+                      "isTest":  true,
+                      "notice":  "OBS: Esta obra e apenas de teste.",
+                      "summary":  "Aos 14 anos, Caio acorda em um mundo sem humanos, onde dragoes, goblins e elfos atacam qualquer estranho.",
+                      "sourceUrl":  "https://kapitomo.github.io/KapiTomo/manga/garoto-outro-mundo/",
+                      "coverName":  "cover-garoto-outro-mundo.png",
+                      "coverSourceUrl":  "https://kapitomo.github.io/KapiTomo/assets/cover-garoto-outro-mundo.png",
+                      "coverLastModified":  1780358400000,
+                      "updatedAt":  1780358400000,
+                      "chapters":  [
+                                       {
+                                           "folderName":  "capitulo-001",
+                                           "title":  "Capitulo 01 - A Queda",
+                                           "chapterName":  "A Queda",
+                                           "contentType":  "novel",
+                                           "pageCount":  1,
+                                           "totalImagesExpected":  1,
+                                           "wordCount":  340,
+                                           "paragraphCount":  9,
+                                           "textFileName":  "capitulo-001.txt",
+                                           "textSourceUrl":  "https://kapitomo.github.io/KapiTomo/api/garoto-outro-mundo/capitulo-001.txt",
+                                           "manifestSourceUrl":  "https://kapitomo.github.io/KapiTomo/api/garoto-outro-mundo/capitulo-001.json",
+                                           "updatedAt":  1780358400000,
+                                           "sourceUrl":  "https://kapitomo.github.io/KapiTomo/manga/garoto-outro-mundo/0/"
+                                       },
+                                       {
+                                           "folderName":  "capitulo-002",
+                                           "title":  "Capitulo 02 - A Floresta que Caca",
+                                           "chapterName":  "A Floresta que Caca",
+                                           "contentType":  "novel",
+                                           "pageCount":  1,
+                                           "totalImagesExpected":  1,
+                                           "wordCount":  334,
+                                           "paragraphCount":  10,
+                                           "textFileName":  "capitulo-002.txt",
+                                           "textSourceUrl":  "https://kapitomo.github.io/KapiTomo/api/garoto-outro-mundo/capitulo-002.txt",
+                                           "manifestSourceUrl":  "https://kapitomo.github.io/KapiTomo/api/garoto-outro-mundo/capitulo-002.json",
+                                           "updatedAt":  1780358400000,
+                                           "sourceUrl":  "https://kapitomo.github.io/KapiTomo/manga/garoto-outro-mundo/1/"
+                                       },
+                                       {
+                                           "folderName":  "capitulo-003",
+                                           "title":  "Capitulo 03 - A Saida de Pedra",
+                                           "chapterName":  "A Saida de Pedra",
+                                           "contentType":  "novel",
+                                           "pageCount":  1,
+                                           "totalImagesExpected":  1,
+                                           "wordCount":  369,
+                                           "paragraphCount":  12,
+                                           "textFileName":  "capitulo-003.txt",
+                                           "textSourceUrl":  "https://kapitomo.github.io/KapiTomo/api/garoto-outro-mundo/capitulo-003.txt",
+                                           "manifestSourceUrl":  "https://kapitomo.github.io/KapiTomo/api/garoto-outro-mundo/capitulo-003.json",
+                                           "updatedAt":  1780358400000,
+                                           "sourceUrl":  "https://kapitomo.github.io/KapiTomo/manga/garoto-outro-mundo/2/"
+                                       }
+                                   ]
+                  },
+                  {
+                      "libraryId":  "kapitomo",
+                      "libraryName":  "KapiTomo",
+                      "folderName":  "garoto-outro-mundo-imagens",
+                      "title":  "O Mundo Sem Humanos: Quadrinhos",
+                      "author":  "KapiTomo",
+                      "type":  "Quadrinho",
+                      "isTest":  true,
+                      "notice":  "OBS: Esta obra e apenas de teste.",
+                      "summary":  "Versao em quadrinhos da novel, contada apenas por paginas ilustradas.",
+                      "sourceUrl":  "https://kapitomo.github.io/KapiTomo/manga/garoto-outro-mundo-imagens/",
+                      "coverName":  "cover-garoto-outro-mundo.png",
+                      "coverSourceUrl":  "https://kapitomo.github.io/KapiTomo/assets/cover-garoto-outro-mundo.png",
+                      "coverLastModified":  1780358400000,
+                      "updatedAt":  1780358400000,
+                      "chapters":  [
+                                       {
+                                           "folderName":  "capitulo-001",
+                                           "title":  "Capitulo 01 - A Queda",
+                                           "chapterName":  "A Queda",
+                                           "pageCount":  2,
+                                           "totalImagesExpected":  2,
+                                           "manifestSourceUrl":  "https://kapitomo.github.io/KapiTomo/api/garoto-outro-mundo-imagens/capitulo-001.json",
+                                           "updatedAt":  1780358400000,
+                                           "sourceUrl":  "https://kapitomo.github.io/KapiTomo/manga/garoto-outro-mundo-imagens/0/"
+                                       },
+                                       {
+                                           "folderName":  "capitulo-002",
+                                           "title":  "Capitulo 02 - A Floresta que Caca",
+                                           "chapterName":  "A Floresta que Caca",
+                                           "pageCount":  2,
+                                           "totalImagesExpected":  2,
+                                           "manifestSourceUrl":  "https://kapitomo.github.io/KapiTomo/api/garoto-outro-mundo-imagens/capitulo-002.json",
+                                           "updatedAt":  1780358400000,
+                                           "sourceUrl":  "https://kapitomo.github.io/KapiTomo/manga/garoto-outro-mundo-imagens/1/"
+                                       },
+                                       {
+                                           "folderName":  "capitulo-003",
+                                           "title":  "Capitulo 03 - A Saida de Pedra",
+                                           "chapterName":  "A Saida de Pedra",
+                                           "pageCount":  2,
+                                           "totalImagesExpected":  2,
+                                           "manifestSourceUrl":  "https://kapitomo.github.io/KapiTomo/api/garoto-outro-mundo-imagens/capitulo-003.json",
+                                           "updatedAt":  1780358400000,
+                                           "sourceUrl":  "https://kapitomo.github.io/KapiTomo/manga/garoto-outro-mundo-imagens/2/"
+                                       }
+                                   ]
+                  }
+              ]
 }
