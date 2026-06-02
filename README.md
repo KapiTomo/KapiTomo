@@ -1,6 +1,6 @@
 # KapiTomo
 
-KapiTomo e um site estatico oficial para publicar minhas obras autorais de leitura livre. Ele tem pagina inicial, biblioteca pesquisavel, filtros por genero, leitor de capitulos e links de download.
+KapiTomo e um site estatico oficial para publicar e ler obras autorais de leitura livre. Ele tem pagina inicial, biblioteca pesquisavel, filtros por genero, leitor de capitulos e links de download.
 
 ## Plugin oficial
 

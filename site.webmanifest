@@ -1,7 +1,7 @@
 {
   "name": "KapiTomo",
   "short_name": "KapiTomo",
-  "description": "Site oficial para ler minhas obras originais de webtoon.",
+  "description": "Site oficial para ler obras de webtoon.",
   "start_url": "https://kapitomo.github.io/KapiTomo/",
   "display": "standalone",
   "background_color": "#fbf7ef",
