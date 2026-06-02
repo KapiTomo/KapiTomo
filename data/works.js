@@ -7,7 +7,7 @@ window.KAPI_TOMO_WORKS = [
     format: "Novel",
     rating: "Livre",
     testNote: "OBS: Esta obra e apenas de teste.",
-    cover: "assets/cover-garoto-outro-mundo.png",
+    cover: "https://kapitomo.github.io/KapiTomo/assets/cover-garoto-outro-mundo.png",
     description:
       "Aos 14 anos, Caio acorda em um mundo sem humanos, onde dragoes, goblins e elfos atacam qualquer estranho. Para voltar vivo, ele precisa aprender a sobreviver sem virar heroi.",
     chapters: [
@@ -116,7 +116,7 @@ window.KAPI_TOMO_WORKS = [
     format: "Quadrinho",
     rating: "Livre",
     testNote: "OBS: Esta obra e apenas de teste.",
-    cover: "assets/cover-garoto-outro-mundo.png",
+    cover: "https://kapitomo.github.io/KapiTomo/assets/cover-garoto-outro-mundo.png",
     description:
       "Versao em quadrinhos da novel O Mundo Sem Humanos, contada apenas por paginas ilustradas.",
     chapters: [
@@ -124,27 +124,39 @@ window.KAPI_TOMO_WORKS = [
         title: "Capitulo 01 - A Queda",
         date: "2026-06-02",
         contentType: "images",
+        pages: [
+          "https://kapitomo.github.io/KapiTomo/assets/comic/garoto-outro-mundo-imagens/page-001.png",
+          "https://kapitomo.github.io/KapiTomo/assets/comic/garoto-outro-mundo-imagens/page-002.png"
+        ],
         images: [
-          { src: "assets/comic/garoto-outro-mundo-imagens/page-001.png", alt: "O Mundo Sem Humanos imagens capitulo 1 pagina 1" },
-          { src: "assets/comic/garoto-outro-mundo-imagens/page-002.png", alt: "O Mundo Sem Humanos imagens capitulo 1 pagina 2" }
+          { src: "https://kapitomo.github.io/KapiTomo/assets/comic/garoto-outro-mundo-imagens/page-001.png", alt: "O Mundo Sem Humanos imagens capitulo 1 pagina 1" },
+          { src: "https://kapitomo.github.io/KapiTomo/assets/comic/garoto-outro-mundo-imagens/page-002.png", alt: "O Mundo Sem Humanos imagens capitulo 1 pagina 2" }
         ]
       },
       {
         title: "Capitulo 02 - A Floresta que Caca",
         date: "2026-06-02",
         contentType: "images",
+        pages: [
+          "https://kapitomo.github.io/KapiTomo/assets/comic/garoto-outro-mundo-imagens/page-003.png",
+          "https://kapitomo.github.io/KapiTomo/assets/comic/garoto-outro-mundo-imagens/page-004.png"
+        ],
         images: [
-          { src: "assets/comic/garoto-outro-mundo-imagens/page-003.png", alt: "O Mundo Sem Humanos imagens capitulo 2 pagina 1" },
-          { src: "assets/comic/garoto-outro-mundo-imagens/page-004.png", alt: "O Mundo Sem Humanos imagens capitulo 2 pagina 2" }
+          { src: "https://kapitomo.github.io/KapiTomo/assets/comic/garoto-outro-mundo-imagens/page-003.png", alt: "O Mundo Sem Humanos imagens capitulo 2 pagina 1" },
+          { src: "https://kapitomo.github.io/KapiTomo/assets/comic/garoto-outro-mundo-imagens/page-004.png", alt: "O Mundo Sem Humanos imagens capitulo 2 pagina 2" }
         ]
       },
       {
         title: "Capitulo 03 - A Saida de Pedra",
         date: "2026-06-02",
         contentType: "images",
+        pages: [
+          "https://kapitomo.github.io/KapiTomo/assets/comic/garoto-outro-mundo-imagens/page-005.png",
+          "https://kapitomo.github.io/KapiTomo/assets/comic/garoto-outro-mundo-imagens/page-006.png"
+        ],
         images: [
-          { src: "assets/comic/garoto-outro-mundo-imagens/page-005.png", alt: "O Mundo Sem Humanos imagens capitulo 3 pagina 1" },
-          { src: "assets/comic/garoto-outro-mundo-imagens/page-006.png", alt: "O Mundo Sem Humanos imagens capitulo 3 pagina 2" }
+          { src: "https://kapitomo.github.io/KapiTomo/assets/comic/garoto-outro-mundo-imagens/page-005.png", alt: "O Mundo Sem Humanos imagens capitulo 3 pagina 1" },
+          { src: "https://kapitomo.github.io/KapiTomo/assets/comic/garoto-outro-mundo-imagens/page-006.png", alt: "O Mundo Sem Humanos imagens capitulo 3 pagina 2" }
         ]
       }
     ]
