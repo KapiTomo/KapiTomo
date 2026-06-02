@@ -80,8 +80,7 @@ function renderWorks() {
     card.className = "work-card";
     card.innerHTML = `
       <a class="work-cover-link" href="${workUrl(work)}" aria-label="Abrir ${work.title}">
-        <img src="${work.cover}" alt="Capa de ${work.title}" loading="lazy">
-        <span class="work-cover-badge">${work.genre}</span>
+        <img src="${work.cover}" alt="Capa de ${work.title}">
       </a>
       <div class="work-card-body">
         <h3><a href="${workUrl(work)}">${work.title}</a></h3>
@@ -97,7 +96,7 @@ function renderWorkPage(work) {
 
   fragment.querySelector(".manga-cover").src = work.cover;
   fragment.querySelector(".manga-cover").alt = `Capa de ${work.title}`;
-  fragment.querySelector(".manga-genre").textContent = work.genre;
+  fragment.querySelector(".manga-genre").textContent = "";
   fragment.querySelector("h1").textContent = work.title;
   fragment.querySelector(".manga-description").textContent = work.description;
   fragment.querySelector(".chapter-count").textContent = `${work.chapters.length} capitulo${work.chapters.length === 1 ? "" : "s"}`;
