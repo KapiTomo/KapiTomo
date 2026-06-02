@@ -1,6 +1,6 @@
 # KapiTomo
 
-KapiTomo e um site estatico oficial para publicar e ler obras autorais de leitura livre. Ele tem pagina inicial, biblioteca pesquisavel, filtros por genero, leitor de capitulos e links de download.
+KapiTomo e um site estatico oficial para publicar e ler obras autorais de leitura livre. Ele tem pagina inicial, biblioteca pesquisavel, filtros por genero, leitor de capitulos e um catalogo de teste para o Nyxalira.
 
 ## Plugin oficial
 
@@ -9,6 +9,10 @@ O plugin oficial do KapiTomo para o Nyxovira fica em `downloads/plugins/kapitomo
 Catalogo remoto:
 
 `https://kapitomo.github.io/KapiTomo/plugins/catalog.json`
+
+Catalogo de obras para teste no Nyxalira:
+
+`https://kapitomo.github.io/KapiTomo/api/catalog.json`
 
 Canal oficial:
 
@@ -21,11 +25,10 @@ Update `data/works.js`:
 - `title`: work title.
 - `genre`: category used by the filter buttons.
 - `cover`: image path inside `assets`.
-- `download`: public file path inside `downloads`.
 - `description`: library summary.
 - `chapters`: reader content.
 
-Put cover images in `assets` and downloadable files in `downloads`.
+Put cover images in `assets`.
 
 ## Open locally
 

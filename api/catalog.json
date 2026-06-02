@@ -1,0 +1,42 @@
+{
+  "mode": "android-catalog",
+  "folderName": "KapiTomo",
+  "folderPath": "https://kapitomo.github.io/KapiTomo/api/catalog.json",
+  "libraries": [
+    {
+      "id": "kapitomo",
+      "name": "KapiTomo",
+      "path": "https://kapitomo.github.io/KapiTomo/"
+    }
+  ],
+  "works": [
+    {
+      "libraryId": "kapitomo",
+      "libraryName": "KapiTomo",
+      "folderName": "teste-novel",
+      "title": "Novel Teste",
+      "summary": "Uma novel de fantasia para teste, com imagem apenas na capa da obra.",
+      "sourceUrl": "https://kapitomo.github.io/KapiTomo/manga/teste-novel/",
+      "coverName": "hero-kapitomo.png",
+      "coverSourceUrl": "https://kapitomo.github.io/KapiTomo/assets/hero-kapitomo.png",
+      "coverLastModified": 1780272000000,
+      "updatedAt": 1780272000000,
+      "chapters": [
+        {
+          "folderName": "capitulo-001",
+          "title": "Capitulo 01 - Inicio do Teste",
+          "chapterName": "Inicio do Teste",
+          "contentType": "novel",
+          "pageCount": 0,
+          "totalImagesExpected": 0,
+          "wordCount": 56,
+          "paragraphCount": 2,
+          "textFileName": "capitulo-001.txt",
+          "textSourceUrl": "https://kapitomo.github.io/KapiTomo/api/teste-novel/capitulo-001.txt",
+          "manifestSourceUrl": "https://kapitomo.github.io/KapiTomo/api/teste-novel/capitulo-001.json",
+          "updatedAt": 1780272000000
+        }
+      ]
+    }
+  ]
+}
