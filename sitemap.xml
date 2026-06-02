@@ -2,67 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://kapitomo.github.io/KapiTomo/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://kapitomo.github.io/KapiTomo/#obra/aurora-archive</loc>
-    <lastmod>2026-05-14</lastmod>
+    <loc>https://kapitomo.github.io/KapiTomo/#obra/teste-novel</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kapitomo.github.io/KapiTomo/#ler/aurora-archive/0</loc>
-    <lastmod>2026-05-14</lastmod>
+    <loc>https://kapitomo.github.io/KapiTomo/#ler/teste-novel/0</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://kapitomo.github.io/KapiTomo/#obra/rainline-cafe</loc>
-    <lastmod>2026-05-14</lastmod>
+    <loc>https://kapitomo.github.io/KapiTomo/manga/teste-novel/</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kapitomo.github.io/KapiTomo/#ler/rainline-cafe/0</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://kapitomo.github.io/KapiTomo/api/catalog.json</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://kapitomo.github.io/KapiTomo/#obra/neon-runner</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://kapitomo.github.io/KapiTomo/#ler/neon-runner/0</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://kapitomo.github.io/KapiTomo/manga/aurora-archive/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://kapitomo.github.io/KapiTomo/manga/rainline-cafe/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://kapitomo.github.io/KapiTomo/manga/neon-runner/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://kapitomo.github.io/KapiTomo/downloads/plugins/kapitomo.zip</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
