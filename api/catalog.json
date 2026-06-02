@@ -65,6 +65,47 @@
           "updatedAt": 1780358400000
         }
       ]
+    },
+    {
+      "libraryId": "kapitomo",
+      "libraryName": "KapiTomo",
+      "folderName": "garoto-outro-mundo-imagens",
+      "title": "O Mundo Sem Humanos - Imagens",
+      "summary": "Adaptacao visual da novel, com paginas em imagem, paineis e baloes de fala.",
+      "sourceUrl": "https://kapitomo.github.io/KapiTomo/manga/garoto-outro-mundo-imagens/",
+      "coverName": "cover-garoto-outro-mundo.png",
+      "coverSourceUrl": "https://kapitomo.github.io/KapiTomo/assets/cover-garoto-outro-mundo.png",
+      "coverLastModified": 1780358400000,
+      "updatedAt": 1780358400000,
+      "chapters": [
+        {
+          "folderName": "capitulo-001",
+          "title": "Capitulo 01 - A Queda",
+          "chapterName": "A Queda",
+          "pageCount": 2,
+          "totalImagesExpected": 2,
+          "manifestSourceUrl": "https://kapitomo.github.io/KapiTomo/api/garoto-outro-mundo-imagens/capitulo-001.json",
+          "updatedAt": 1780358400000
+        },
+        {
+          "folderName": "capitulo-002",
+          "title": "Capitulo 02 - A Floresta que Caca",
+          "chapterName": "A Floresta que Caca",
+          "pageCount": 2,
+          "totalImagesExpected": 2,
+          "manifestSourceUrl": "https://kapitomo.github.io/KapiTomo/api/garoto-outro-mundo-imagens/capitulo-002.json",
+          "updatedAt": 1780358400000
+        },
+        {
+          "folderName": "capitulo-003",
+          "title": "Capitulo 03 - A Saida de Pedra",
+          "chapterName": "A Saida de Pedra",
+          "pageCount": 2,
+          "totalImagesExpected": 2,
+          "manifestSourceUrl": "https://kapitomo.github.io/KapiTomo/api/garoto-outro-mundo-imagens/capitulo-003.json",
+          "updatedAt": 1780358400000
+        }
+      ]
     }
   ]
 }

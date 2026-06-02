@@ -1009,6 +1009,24 @@ code {
   border-color: #242831;
 }
 
+.image-chapter-page {
+  background: #000;
+}
+
+.image-reader {
+  display: grid;
+  gap: 0;
+  width: min(900px, 100%);
+  margin: 0 auto;
+  background: #000;
+}
+
+.image-reader img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 @media (max-width: 760px) {
   .site-header,
   .toolbar,
@@ -1185,7 +1203,7 @@ body {
 }
 
 .works-grid {
-  grid-template-columns: 172px;
+  grid-template-columns: repeat(auto-fit, 172px);
   gap: 16px;
   justify-content: start;
 }
@@ -1366,7 +1384,7 @@ body {
   }
 
   .works-grid {
-    grid-template-columns: 156px;
+    grid-template-columns: repeat(2, minmax(0, 156px));
     justify-content: start;
   }
 
