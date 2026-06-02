@@ -1,32 +1,64 @@
 window.KAPI_TOMO_WORKS = [
   {
-    id: "teste-novel",
-    title: "Novel Teste",
-    status: "Teste",
+    id: "garoto-outro-mundo",
+    title: "O Mundo Sem Humanos",
+    status: "Completa",
     genre: "Fantasia",
     rating: "Livre",
-    cover: "assets/cover-novel-teste.png",
+    cover: "assets/cover-garoto-outro-mundo.png",
     description:
-      "Uma novel de fantasia para testar a leitura no KapiTomo e a importacao pelo Nyxalira. A unica imagem usada pela obra e a capa.",
+      "Aos 14 anos, Caio acorda em um mundo sem humanos, onde dragoes, goblins e elfos atacam qualquer estranho. Para voltar vivo, ele precisa aprender a sobreviver sem virar heroi.",
     chapters: [
       {
-        title: "Capitulo 01 - Inicio do Teste",
-        date: "2026-06-01",
+        title: "Capitulo 01 - A Queda",
+        date: "2026-06-02",
         contentType: "novel",
         paragraphs: [
-          "O sino da muralha tocou tres vezes antes do amanhecer. Na aldeia de Vale Cinzento, isso nunca significava festa. As janelas se fecharam como olhos assustados, os lampioes foram apagados um por um, e ate os caes pararam de latir quando a neblina desceu da floresta.",
-          "Lia acordou com a mao sobre o medalhao que usava desde crianca. A pedra azul no centro, que sempre parecera morta, brilhava por baixo de seus dedos. Nao era uma luz forte. Era uma chama pequena, teimosa, como se alguem muito distante estivesse chamando seu nome.",
-          "Do lado de fora, passos correram pela rua de terra. Vozes se misturaram ao vento. Diziam que os corvos de vidro tinham voltado, que a ponte norte estava coberta de gelo negro, que uma sombra enorme havia cruzado o ceu sem bater asas. Diziam muitas coisas quando tinham medo.",
-          "Lia vestiu o casaco, prendeu o cabelo com uma fita escura e saiu antes que sua tia pudesse impedi-la. A neblina cheirava a chuva antiga. No alto da colina, a torre sem portas aparecia pela primeira vez em anos, inclinada contra o horizonte como uma agulha esquecida por algum gigante.",
-          "Ninguem se aproximava daquela torre. Os mais velhos juravam que ela nao existia de verdade, que era apenas uma lembranca ruim do reino anterior. Mas o medalhao de Lia pulsava a cada passo, e o caminho de pedras surgia sob seus pes apenas quando ela decidia continuar.",
-          "Ao tocar a parede fria da torre, uma linha dourada se abriu na rocha. Nao era uma porta, ainda nao. Era uma pergunta. Lia respirou fundo e disse o unico nome que aparecia em seus sonhos desde a infancia: Arvendel.",
-          "A pedra se partiu sem fazer barulho. Do outro lado havia uma escadaria estreita, iluminada por estrelas presas em frascos. Cada estrela girava devagar, e dentro delas Lia viu pedacos de lugares impossiveis: um mar suspenso no ceu, uma cidade construida sobre ossos de dragao, uma biblioteca onde os livros cochichavam mentiras.",
-          "No ultimo degrau, encontrou um mapa flutuando sobre uma mesa de prata. Ele nao mostrava montanhas nem estradas. Mostrava promessas. Um reino que ainda nao havia nascido brilhava no centro do pergaminho, cercado por sete marcas apagadas. Quando Lia estendeu a mao, a primeira marca acendeu.",
-          "A sala tremeu. Uma voz saiu do mapa, baixa e cansada, como se tivesse esperado por seculos. Disse que o selo do norte estava quebrado, que os corvos de vidro eram apenas mensageiros, e que a sombra no ceu pertencia ao rei sem memoria.",
-          "Lia quis recuar. Ela era apenas a menina que consertava redes, vendia ervas na feira e fingia nao ouvir quando os outros chamavam seu pai de traidor. Nao sabia empunhar espada, nao conhecia magia, nao tinha exercito. Mesmo assim, o mapa continuou brilhando diante dela.",
-          "Entao o medalhao se abriu. Dentro dele havia uma chave feita de vidro azul, tao leve que parecia respirar. Ao segura-la, Lia ouviu a floresta inteira sussurrar seu nome. Nao como aviso. Como escolha.",
-          "Quando desceu da torre, o sol ainda nao havia nascido. A aldeia continuava escondida atras das cortinas, tremendo diante do desconhecido. Lia olhou para a ponte norte, onde o gelo negro crescia em silencio, e guardou a chave junto ao peito.",
-          "Se o reino de Arvendel queria nascer, alguem precisaria abrir a primeira porta. E naquela manha, antes que o medo inventasse novas desculpas, Lia deu o primeiro passo."
+          "Caio tinha quatorze anos e estava voltando da escola quando o chao sumiu. Um segundo antes, havia asfalto, mochila pesada e barulho de onibus. No seguinte, havia lama ate o tornozelo, ar frio e uma floresta que respirava como um animal enorme.",
+          "Ele chamou por alguem. Ninguem respondeu. Nao havia postes, casas, carros ou vozes humanas. So arvores altas demais, folhas escuras e marcas de garras nos troncos. Caio apertou a alca da mochila e tentou nao chorar.",
+          "Um rugido rasgou o ceu. Entre as nuvens, uma sombra com asas passou devagar. Era um dragao. Nao um desenho, nao um sonho. Um dragao real, grande como um predio, procurando alguma coisa no vale.",
+          "Caio correu para baixo de uma raiz gigante e prendeu a respiracao. O monstro pousou longe, mas o vento das asas derrubou galhos ao redor. Quando tudo ficou quieto, ele abriu a mochila. Tinha uma garrafa de agua, dois paes, um caderno, uma lanterna pequena e um canivete simples que usava para apontar lapis.",
+          "Aquilo era pouco. Mas era tudo. Caio decidiu que nao ia gastar energia gritando. Primeiro precisava de abrigo. Depois, agua. Depois, uma forma de entender onde estava.",
+          "Ao caminhar, encontrou pegadas pequenas perto de um riacho. Pensou que fossem de crianca, ate ver uma flecha cravada em uma pedra. A ponta estava suja de veneno verde.",
+          "Risadas finas surgiram entre os arbustos. Goblins. Quatro deles, baixos, magros e armados com facas curvas, cercaram o riacho farejando o ar. Caio se jogou na lama atras de uma pedra e cobriu a boca com a manga.",
+          "Um goblin passou tao perto que Caio viu os dentes quebrados e os olhos amarelos. Se ele se mexesse, morreria ali mesmo. Entao ficou imovel, contando batidas do proprio coracao.",
+          "Quando os goblins foram embora, Caio entendeu a primeira regra daquele mundo: tudo ali via um humano como comida, inimigo ou coisa estranha demais para deixar viva. Ele pegou a flecha envenenada com cuidado, guardou o medo no fundo do peito e continuou andando antes que a noite chegasse."
+        ]
+      },
+      {
+        title: "Capitulo 02 - A Floresta que Caca",
+        date: "2026-06-02",
+        contentType: "novel",
+        paragraphs: [
+          "Caio passou a primeira noite dentro do tronco oco de uma arvore. Nao dormiu de verdade. Cada estalo parecia passo, cada sombra parecia garra. Quando o sol nasceu cinza, ele estava com fome, frio e coberto de barro.",
+          "Ele comeu metade de um pao e guardou o resto. No caderno, escreveu tres regras: nao correr sem saber para onde, nao fazer fogo de dia, nao confiar em ninguem armado.",
+          "A terceira regra falhou antes do meio-dia. Perto de uma clareira, Caio viu dois elfos. Eram altos, bonitos e silenciosos, com arcos longos e roupas de couro claro. Por um segundo, ele quase pediu ajuda.",
+          "Entao viu o que eles faziam. Os elfos perseguiam uma criatura pequena ferida, rindo quando ela tropeçava. Um deles disparou uma flecha so para cortar o caminho da vitima. Nao estavam caçando por fome. Estavam brincando.",
+          "Caio recuou devagar, mas pisou em um galho. Os dois elfos viraram o rosto ao mesmo tempo. Seus olhos eram prateados e frios. Um deles sorriu como quem encontra um brinquedo novo.",
+          "Caio correu. Lembrou tarde da propria regra. As flechas passaram zunindo pelas orelhas. Ele entrou em uma parte da mata onde as arvores tinham espinhos vermelhos e se jogou por baixo deles. Os elfos hesitaram. Os espinhos se mexiam sozinhos.",
+          "Com o canivete, Caio cortou tiras da propria camisa e enrolou nos bracos para atravessar o mato sem rasgar a pele. Uma flecha atingiu sua mochila, mas ficou presa no tecido. Ele nao olhou para tras.",
+          "No fim da trilha, encontrou uma caverna baixa. La dentro havia ossos antigos e cheiro de animal, mas tambem havia pedras secas. Caio entrou, puxou galhos para esconder a abertura e esperou.",
+          "Quando a noite caiu, os elfos desistiram. Caio tremia inteiro. Mesmo assim, fez uma coisa importante: quebrou a flecha presa na mochila e guardou a ponta. Naquele mundo, qualquer ferramenta podia virar chance.",
+          "Ele nao era forte. Nao sabia lutar. Mas sabia observar. E, se conseguisse sobreviver mais um dia, talvez descobrisse uma saida."
+        ]
+      },
+      {
+        title: "Capitulo 03 - A Saida de Pedra",
+        date: "2026-06-02",
+        contentType: "novel",
+        paragraphs: [
+          "Na manha seguinte, Caio encontrou marcas antigas na parede da caverna. Nao eram desenhos de animais. Eram setas, circulos e um simbolo repetido tres vezes: uma porta dentro de uma montanha.",
+          "Ele seguiu as marcas por um tunel estreito. A lanterna falhou duas vezes, e o escuro pareceu encostar em seu rosto. Quando saiu do outro lado, viu ruinas de pedra tomadas por raizes. No centro havia um arco quebrado, igual ao simbolo da parede.",
+          "O problema era o dragao. Ele dormia enrolado ao redor das ruinas, soltando fumaca pelo nariz. Entre as escamas, havia cicatrizes de lanças e flechas. Ate os elfos e goblins tinham medo dele.",
+          "Caio se escondeu e pensou. Nao podia lutar. Nao podia correr. Entao fez a unica coisa que ainda sabia fazer melhor que os monstros: improvisar.",
+          "Usou a garrafa vazia, pedras pequenas e a ponta de flecha para montar um chocalho. Amarrou tudo em um cipó e jogou longe, contra uma coluna caída. O barulho ecoou pela ruina.",
+          "O dragao abriu um olho. Depois o outro. Levantou a cabeça e foi ate o som, irritado. Caio correu baixo, quase rastejando, ate o arco de pedra.",
+          "O portal nao acendeu. Faltava alguma coisa. Caio viu um buraco no centro da base, do tamanho exato da lanterna. Engoliu seco, colocou o objeto ali e apertou o botao.",
+          "A luz fraca virou uma linha branca. O arco inteiro tremeu. O dragao percebeu e rugiu. Caio sentiu o calor chegando pelas costas, mas nao tirou a mao da lanterna.",
+          "Quando o portal abriu, ele viu por um instante a rua perto de casa. O mesmo poste, o mesmo muro pichado, o mesmo mundo barulhento e humano que antes parecia comum demais.",
+          "Caio pulou. Caiu no asfalto de joelhos, com a mochila rasgada e barro ate o pescoço. O portal fechou atras dele como um suspiro.",
+          "Ninguem acreditaria. Talvez nem ele acreditasse depois de alguns dias. Mas, dentro da mochila, ainda havia uma escama preta, quente como brasa.",
+          "Caio guardou a escama no bolso e olhou para o ceu. Estava em casa. Mas agora sabia uma coisa que nunca esqueceria: sobreviver nao era vencer todos os monstros. Era continuar pensando quando o medo queria pensar por voce."
         ]
       }
     ]
