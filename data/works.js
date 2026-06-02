@@ -1,4 +1,4 @@
-window.KAPI_TOMO_WORKS = [
+﻿window.KAPI_TOMO_WORKS = [
   {
     id: "garoto-outro-mundo",
     title: "O Mundo Sem Humanos",
@@ -73,15 +73,15 @@ window.KAPI_TOMO_WORKS = [
     rating: "Livre",
     cover: "assets/cover-garoto-outro-mundo.png",
     description:
-      "Adaptacao visual da novel O Mundo Sem Humanos, com paginas em imagem, paineis e baloes de fala.",
+      "Adaptacao visual da novel O Mundo Sem Humanos, com paginas ilustradas em sequencia.",
     chapters: [
       {
         title: "Capitulo 01 - A Queda",
         date: "2026-06-02",
         contentType: "images",
         images: [
-          { src: "assets/comic/garoto-outro-mundo-imagens/chapter-0-page-1.png", alt: "O Mundo Sem Humanos imagens capitulo 1 pagina 1" },
-          { src: "assets/comic/garoto-outro-mundo-imagens/chapter-0-page-2.png", alt: "O Mundo Sem Humanos imagens capitulo 1 pagina 2" }
+          { src: "assets/comic/garoto-outro-mundo-imagens/page-001.png", alt: "O Mundo Sem Humanos imagens capitulo 1 pagina 1" },
+          { src: "assets/comic/garoto-outro-mundo-imagens/page-002.png", alt: "O Mundo Sem Humanos imagens capitulo 1 pagina 2" }
         ]
       },
       {
@@ -89,8 +89,8 @@ window.KAPI_TOMO_WORKS = [
         date: "2026-06-02",
         contentType: "images",
         images: [
-          { src: "assets/comic/garoto-outro-mundo-imagens/chapter-1-page-1.png", alt: "O Mundo Sem Humanos imagens capitulo 2 pagina 1" },
-          { src: "assets/comic/garoto-outro-mundo-imagens/chapter-1-page-2.png", alt: "O Mundo Sem Humanos imagens capitulo 2 pagina 2" }
+          { src: "assets/comic/garoto-outro-mundo-imagens/page-003.png", alt: "O Mundo Sem Humanos imagens capitulo 2 pagina 1" },
+          { src: "assets/comic/garoto-outro-mundo-imagens/page-004.png", alt: "O Mundo Sem Humanos imagens capitulo 2 pagina 2" }
         ]
       },
       {
@@ -98,8 +98,8 @@ window.KAPI_TOMO_WORKS = [
         date: "2026-06-02",
         contentType: "images",
         images: [
-          { src: "assets/comic/garoto-outro-mundo-imagens/chapter-2-page-1.png", alt: "O Mundo Sem Humanos imagens capitulo 3 pagina 1" },
-          { src: "assets/comic/garoto-outro-mundo-imagens/chapter-2-page-2.png", alt: "O Mundo Sem Humanos imagens capitulo 3 pagina 2" }
+          { src: "assets/comic/garoto-outro-mundo-imagens/page-005.png", alt: "O Mundo Sem Humanos imagens capitulo 3 pagina 1" },
+          { src: "assets/comic/garoto-outro-mundo-imagens/page-006.png", alt: "O Mundo Sem Humanos imagens capitulo 3 pagina 2" }
         ]
       }
     ]

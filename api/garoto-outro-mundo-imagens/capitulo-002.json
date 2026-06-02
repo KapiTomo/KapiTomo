@@ -1,17 +1,17 @@
-{
+﻿{
   "mode": "android-chapter",
   "libraryId": "kapitomo",
   "workFolderName": "garoto-outro-mundo-imagens",
   "chapterFolderName": "capitulo-002",
   "pages": [
     {
-      "name": "chapter-1-page-1.png",
-      "sourceUrl": "https://kapitomo.github.io/KapiTomo/assets/comic/garoto-outro-mundo-imagens/chapter-1-page-1.png",
+      "name": "page-003.png",
+      "sourceUrl": "https://kapitomo.github.io/KapiTomo/assets/comic/garoto-outro-mundo-imagens/page-003.png",
       "lastModified": 1780358400000
     },
     {
-      "name": "chapter-1-page-2.png",
-      "sourceUrl": "https://kapitomo.github.io/KapiTomo/assets/comic/garoto-outro-mundo-imagens/chapter-1-page-2.png",
+      "name": "page-004.png",
+      "sourceUrl": "https://kapitomo.github.io/KapiTomo/assets/comic/garoto-outro-mundo-imagens/page-004.png",
       "lastModified": 1780358400000
     }
   ],
