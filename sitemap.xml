@@ -2,37 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://kapitomo.github.io/KapiTomo/</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://kapitomo.github.io/KapiTomo/#obra/teste-novel</loc>
-    <lastmod>2026-06-01</lastmod>
+    <loc>https://kapitomo.github.io/KapiTomo/#obra/garoto-outro-mundo</loc>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kapitomo.github.io/KapiTomo/#ler/teste-novel/0</loc>
-    <lastmod>2026-06-01</lastmod>
+    <loc>https://kapitomo.github.io/KapiTomo/#ler/garoto-outro-mundo/0</loc>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://kapitomo.github.io/KapiTomo/manga/teste-novel/</loc>
-    <lastmod>2026-06-01</lastmod>
+    <loc>https://kapitomo.github.io/KapiTomo/#ler/garoto-outro-mundo/1</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kapitomo.github.io/KapiTomo/#ler/garoto-outro-mundo/2</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kapitomo.github.io/KapiTomo/manga/garoto-outro-mundo/</loc>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://kapitomo.github.io/KapiTomo/api/catalog.json</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://kapitomo.github.io/KapiTomo/downloads/plugins/kapitomo.zip</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

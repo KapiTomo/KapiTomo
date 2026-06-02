@@ -1187,7 +1187,7 @@ body {
 .works-grid {
   grid-template-columns: 172px;
   gap: 16px;
-  justify-content: center;
+  justify-content: start;
 }
 
 .work-card {
@@ -1367,7 +1367,7 @@ body {
 
   .works-grid {
     grid-template-columns: 156px;
-    justify-content: center;
+    justify-content: start;
   }
 
   .work-card {
