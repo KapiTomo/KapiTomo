@@ -37,6 +37,36 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://kapitomo.github.io/KapiTomo/#obra/garoto-outro-mundo-imagens</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kapitomo.github.io/KapiTomo/#ler/garoto-outro-mundo-imagens/0</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kapitomo.github.io/KapiTomo/#ler/garoto-outro-mundo-imagens/1</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kapitomo.github.io/KapiTomo/#ler/garoto-outro-mundo-imagens/2</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kapitomo.github.io/KapiTomo/manga/garoto-outro-mundo-imagens/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://kapitomo.github.io/KapiTomo/api/catalog.json</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>

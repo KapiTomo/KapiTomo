@@ -53,6 +53,14 @@ function getChapterParagraphs(chapter) {
   return Array.isArray(chapter.pages) ? chapter.pages : [];
 }
 
+function getChapterImages(chapter) {
+  if (Array.isArray(chapter.images) && chapter.images.length) {
+    return chapter.images;
+  }
+
+  return Array.isArray(chapter.pages) ? chapter.pages.filter((page) => typeof page === "object" && page.src) : [];
+}
+
 function getWordCount(textItems) {
   return textItems
     .join(" ")
@@ -114,7 +122,8 @@ function renderWorkPage(work) {
   fragment.querySelector(".manga-facts").innerHTML = `
     <h2>Informacoes</h2>
     <dl>
-      <div><dt>Autor</dt><dd>Nanquimori</dd></div>
+      <div><dt>Autor</dt><dd>KapiTomo</dd></div>
+      <div><dt>Tipo</dt><dd>${work.format || "Obra"}</dd></div>
       <div><dt>Genero</dt><dd>${work.genre}</dd></div>
       <div><dt>Status</dt><dd>${work.status}</dd></div>
       <div><dt>Classificacao</dt><dd>${work.rating}</dd></div>
@@ -151,6 +160,7 @@ function renderChapterPage(work, chapterIndex = 0) {
   const page = fragment.querySelector(".chapter-page");
   const paragraphs = getChapterParagraphs(chapter);
   const isNovel = chapter.contentType === "novel";
+  const isImageChapter = chapter.contentType === "images";
   const wordCount = getWordCount(paragraphs);
 
   fragment.querySelector(".back-link").href = workUrl(work);
@@ -171,6 +181,13 @@ function renderChapterPage(work, chapterIndex = 0) {
     fragment.querySelector(".webtoon-strip").className = "novel-reader";
     fragment.querySelector(".novel-reader").innerHTML = paragraphs
       .map((paragraph) => `<p>${paragraph}</p>`)
+      .join("");
+  } else if (isImageChapter) {
+    const imagePages = getChapterImages(chapter);
+    page.classList.add("image-chapter-page");
+    fragment.querySelector(".webtoon-strip").className = "image-reader";
+    fragment.querySelector(".image-reader").innerHTML = imagePages
+      .map((image, index) => `<img src="${image.src}" alt="${image.alt || `${chapter.title} pagina ${index + 1}`}" loading="lazy">`)
       .join("");
   } else {
     fragment.querySelector(".webtoon-strip").innerHTML = [

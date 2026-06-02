@@ -4,6 +4,7 @@ window.KAPI_TOMO_WORKS = [
     title: "O Mundo Sem Humanos",
     status: "Completa",
     genre: "Fantasia",
+    format: "Novel",
     rating: "Livre",
     cover: "assets/cover-garoto-outro-mundo.png",
     description:
@@ -33,7 +34,7 @@ window.KAPI_TOMO_WORKS = [
           "Caio passou a primeira noite dentro do tronco oco de uma arvore. Nao dormiu de verdade. Cada estalo parecia passo, cada sombra parecia garra. Quando o sol nasceu cinza, ele estava com fome, frio e coberto de barro.",
           "Ele comeu metade de um pao e guardou o resto. No caderno, escreveu tres regras: nao correr sem saber para onde, nao fazer fogo de dia, nao confiar em ninguem armado.",
           "A terceira regra falhou antes do meio-dia. Perto de uma clareira, Caio viu dois elfos. Eram altos, bonitos e silenciosos, com arcos longos e roupas de couro claro. Por um segundo, ele quase pediu ajuda.",
-          "Entao viu o que eles faziam. Os elfos perseguiam uma criatura pequena ferida, rindo quando ela tropeçava. Um deles disparou uma flecha so para cortar o caminho da vitima. Nao estavam caçando por fome. Estavam brincando.",
+          "Entao viu o que eles faziam. Os elfos perseguiam uma criatura pequena ferida, rindo quando ela tropecava. Um deles disparou uma flecha so para cortar o caminho da vitima. Nao estavam cacando por fome. Estavam brincando.",
           "Caio recuou devagar, mas pisou em um galho. Os dois elfos viraram o rosto ao mesmo tempo. Seus olhos eram prateados e frios. Um deles sorriu como quem encontra um brinquedo novo.",
           "Caio correu. Lembrou tarde da propria regra. As flechas passaram zunindo pelas orelhas. Ele entrou em uma parte da mata onde as arvores tinham espinhos vermelhos e se jogou por baixo deles. Os elfos hesitaram. Os espinhos se mexiam sozinhos.",
           "Com o canivete, Caio cortou tiras da propria camisa e enrolou nos bracos para atravessar o mato sem rasgar a pele. Uma flecha atingiu sua mochila, mas ficou presa no tecido. Ele nao olhou para tras.",
@@ -49,16 +50,56 @@ window.KAPI_TOMO_WORKS = [
         paragraphs: [
           "Na manha seguinte, Caio encontrou marcas antigas na parede da caverna. Nao eram desenhos de animais. Eram setas, circulos e um simbolo repetido tres vezes: uma porta dentro de uma montanha.",
           "Ele seguiu as marcas por um tunel estreito. A lanterna falhou duas vezes, e o escuro pareceu encostar em seu rosto. Quando saiu do outro lado, viu ruinas de pedra tomadas por raizes. No centro havia um arco quebrado, igual ao simbolo da parede.",
-          "O problema era o dragao. Ele dormia enrolado ao redor das ruinas, soltando fumaca pelo nariz. Entre as escamas, havia cicatrizes de lanças e flechas. Ate os elfos e goblins tinham medo dele.",
+          "O problema era o dragao. Ele dormia enrolado ao redor das ruinas, soltando fumaca pelo nariz. Entre as escamas, havia cicatrizes de lancas e flechas. Ate os elfos e goblins tinham medo dele.",
           "Caio se escondeu e pensou. Nao podia lutar. Nao podia correr. Entao fez a unica coisa que ainda sabia fazer melhor que os monstros: improvisar.",
-          "Usou a garrafa vazia, pedras pequenas e a ponta de flecha para montar um chocalho. Amarrou tudo em um cipó e jogou longe, contra uma coluna caída. O barulho ecoou pela ruina.",
-          "O dragao abriu um olho. Depois o outro. Levantou a cabeça e foi ate o som, irritado. Caio correu baixo, quase rastejando, ate o arco de pedra.",
+          "Usou a garrafa vazia, pedras pequenas e a ponta de flecha para montar um chocalho. Amarrou tudo em um cipo e jogou longe, contra uma coluna caida. O barulho ecoou pela ruina.",
+          "O dragao abriu um olho. Depois o outro. Levantou a cabeca e foi ate o som, irritado. Caio correu baixo, quase rastejando, ate o arco de pedra.",
           "O portal nao acendeu. Faltava alguma coisa. Caio viu um buraco no centro da base, do tamanho exato da lanterna. Engoliu seco, colocou o objeto ali e apertou o botao.",
           "A luz fraca virou uma linha branca. O arco inteiro tremeu. O dragao percebeu e rugiu. Caio sentiu o calor chegando pelas costas, mas nao tirou a mao da lanterna.",
           "Quando o portal abriu, ele viu por um instante a rua perto de casa. O mesmo poste, o mesmo muro pichado, o mesmo mundo barulhento e humano que antes parecia comum demais.",
-          "Caio pulou. Caiu no asfalto de joelhos, com a mochila rasgada e barro ate o pescoço. O portal fechou atras dele como um suspiro.",
+          "Caio pulou. Caiu no asfalto de joelhos, com a mochila rasgada e barro ate o pescoco. O portal fechou atras dele como um suspiro.",
           "Ninguem acreditaria. Talvez nem ele acreditasse depois de alguns dias. Mas, dentro da mochila, ainda havia uma escama preta, quente como brasa.",
           "Caio guardou a escama no bolso e olhou para o ceu. Estava em casa. Mas agora sabia uma coisa que nunca esqueceria: sobreviver nao era vencer todos os monstros. Era continuar pensando quando o medo queria pensar por voce."
+        ]
+      }
+    ]
+  },
+  {
+    id: "garoto-outro-mundo-imagens",
+    title: "O Mundo Sem Humanos - Imagens",
+    status: "Completa",
+    genre: "Fantasia",
+    format: "Adaptacao em Imagens",
+    rating: "Livre",
+    cover: "assets/cover-garoto-outro-mundo.png",
+    description:
+      "Adaptacao visual da novel O Mundo Sem Humanos, com paginas em imagem, paineis e baloes de fala.",
+    chapters: [
+      {
+        title: "Capitulo 01 - A Queda",
+        date: "2026-06-02",
+        contentType: "images",
+        images: [
+          { src: "assets/comic/garoto-outro-mundo-imagens/chapter-0-page-1.png", alt: "O Mundo Sem Humanos imagens capitulo 1 pagina 1" },
+          { src: "assets/comic/garoto-outro-mundo-imagens/chapter-0-page-2.png", alt: "O Mundo Sem Humanos imagens capitulo 1 pagina 2" }
+        ]
+      },
+      {
+        title: "Capitulo 02 - A Floresta que Caca",
+        date: "2026-06-02",
+        contentType: "images",
+        images: [
+          { src: "assets/comic/garoto-outro-mundo-imagens/chapter-1-page-1.png", alt: "O Mundo Sem Humanos imagens capitulo 2 pagina 1" },
+          { src: "assets/comic/garoto-outro-mundo-imagens/chapter-1-page-2.png", alt: "O Mundo Sem Humanos imagens capitulo 2 pagina 2" }
+        ]
+      },
+      {
+        title: "Capitulo 03 - A Saida de Pedra",
+        date: "2026-06-02",
+        contentType: "images",
+        images: [
+          { src: "assets/comic/garoto-outro-mundo-imagens/chapter-2-page-1.png", alt: "O Mundo Sem Humanos imagens capitulo 3 pagina 1" },
+          { src: "assets/comic/garoto-outro-mundo-imagens/chapter-2-page-2.png", alt: "O Mundo Sem Humanos imagens capitulo 3 pagina 2" }
         ]
       }
     ]
