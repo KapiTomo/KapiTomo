@@ -154,7 +154,7 @@ function renderWorkPage(work) {
       <div><dt>Genero</dt><dd>${work.genre}</dd></div>
       <div><dt>Status</dt><dd>${work.status}</dd></div>
       <div><dt>Classificacao</dt><dd>${work.rating}</dd></div>
-      <div><dt>Publicacao</dt><dd>Somente obras oficiais minhas</dd></div>
+      <div><dt>Publicacao</dt><dd>Obras oficiais do KapiTomo</dd></div>
     </dl>
   `;
 
