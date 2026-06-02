@@ -1,4 +1,4 @@
-{
+﻿{
   "mode": "android-catalog",
   "folderName": "KapiTomo",
   "folderPath": "https://kapitomo.github.io/KapiTomo/api/catalog.json",
@@ -16,7 +16,7 @@
       "folderName": "garoto-outro-mundo",
       "title": "O Mundo Sem Humanos",
       "author": "KapiTomo",
-      "summary": "Aos 14 anos, Caio acorda em um mundo sem humanos, onde dragoes, goblins e elfos atacam qualquer estranho.",
+      "summary": "OBS: Esta obra e apenas de teste. Aos 14 anos, Caio acorda em um mundo sem humanos, onde dragoes, goblins e elfos atacam qualquer estranho.",
       "sourceUrl": "https://kapitomo.github.io/KapiTomo/manga/garoto-outro-mundo/",
       "coverName": "cover-garoto-outro-mundo.png",
       "coverSourceUrl": "https://kapitomo.github.io/KapiTomo/assets/cover-garoto-outro-mundo.png",
@@ -71,9 +71,9 @@
       "libraryId": "kapitomo",
       "libraryName": "KapiTomo",
       "folderName": "garoto-outro-mundo-imagens",
-      "title": "O Mundo Sem Humanos - Imagens",
+      "title": "O Mundo Sem Humanos: Quadrinhos",
       "author": "KapiTomo",
-      "summary": "Adaptacao visual da novel, com paginas ilustradas em sequencia.",
+      "summary": "OBS: Esta obra e apenas de teste. Versao em quadrinhos da novel, contada apenas por paginas ilustradas.",
       "sourceUrl": "https://kapitomo.github.io/KapiTomo/manga/garoto-outro-mundo-imagens/",
       "coverName": "cover-garoto-outro-mundo.png",
       "coverSourceUrl": "https://kapitomo.github.io/KapiTomo/assets/cover-garoto-outro-mundo.png",
