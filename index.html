@@ -22,17 +22,17 @@
     >
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://kapitomo.github.io/KapiTomo/">
-    <meta property="og:image" content="https://kapitomo.github.io/KapiTomo/assets/hero-kapitomo.png">
+    <meta property="og:image" content="https://kapitomo.github.io/KapiTomo/assets/cover-novel-teste.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="KapiTomo - Obras">
     <meta
       name="twitter:description"
       content="Site oficial para ler novels e acompanhar capitulos online."
     >
-    <meta name="twitter:image" content="https://kapitomo.github.io/KapiTomo/assets/hero-kapitomo.png">
+    <meta name="twitter:image" content="https://kapitomo.github.io/KapiTomo/assets/cover-novel-teste.png">
     <title>KapiTomo - Novels</title>
-    <link rel="manifest" href="site.webmanifest?v=20260602">
-    <link rel="stylesheet" href="styles.css?v=20260602">
+    <link rel="manifest" href="site.webmanifest?v=20260604">
+    <link rel="stylesheet" href="styles.css?v=20260604">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -61,7 +61,6 @@
       </a>
       <nav class="nav-links" aria-label="Navegacao principal">
         <a href="#library">Obras</a>
-        <a href="#latest">Capitulos</a>
         <a href="#plugin">Plugin</a>
         <a href="#about">Sobre</a>
         <a href="https://www.youtube.com/@KapiTomo" target="_blank" rel="noopener">YouTube</a>
@@ -69,23 +68,6 @@
     </header>
 
     <main id="top">
-      <section class="hero" aria-labelledby="hero-title">
-        <img src="assets/hero-kapitomo.png" alt="" class="hero-image">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-          <p class="eyebrow">Biblioteca oficial gratuita</p>
-          <h1 id="hero-title">KapiTomo</h1>
-          <p>
-            Leia novels em um espaco feito para acompanhar capitulos
-            e explorar series online.
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="#library">Ler obras</a>
-            <a class="button secondary" href="#latest">Ver capitulos</a>
-          </div>
-        </div>
-      </section>
-
       <section class="toolbar-band" aria-label="Controles da biblioteca">
         <div class="toolbar">
           <label class="search-field">
@@ -109,14 +91,6 @@
           <a href="#ler/teste-novel/0">Ler Novel Teste Capitulo 01 no KapiTomo</a>
         </div>
         <div id="worksGrid" class="works-grid" aria-live="polite"></div>
-      </section>
-
-      <section class="section latest-band" id="latest" aria-labelledby="latest-title">
-        <div class="section-heading">
-          <p class="eyebrow">Atualizacoes</p>
-          <h2 id="latest-title">Capitulos recentes</h2>
-        </div>
-        <div id="latestList" class="latest-list"></div>
       </section>
 
       <section class="section plugin-band" id="plugin" aria-labelledby="plugin-title">
@@ -158,12 +132,12 @@
           <article>
             <strong>2</strong>
             <h3>Leitura gratuita</h3>
-            <p>Voce pode ler online quando quiser, acompanhar os capitulos recentes e voltar para continuar depois.</p>
+            <p>Voce pode ler online quando quiser e voltar para continuar depois.</p>
           </article>
           <article>
             <strong>3</strong>
             <h3>Continue acompanhando</h3>
-            <p>Os capitulos ficam organizados para leitura online, com acesso rapido as obras e atualizacoes recentes.</p>
+            <p>Os capitulos ficam organizados para leitura online, com acesso rapido as obras publicadas.</p>
           </article>
         </div>
       </section>
@@ -174,19 +148,15 @@
 
     <template id="workTemplate">
       <article class="manga-page">
-        <div class="manga-hero">
-          <img class="manga-backdrop" alt="">
-          <div class="manga-shade"></div>
-          <div class="manga-layout">
-            <img class="manga-cover" alt="">
-            <div class="manga-info">
-              <a class="back-link" href="#library">Voltar para obras</a>
-              <p class="eyebrow manga-genre"></p>
-              <h1></h1>
-              <div class="manga-badges"></div>
-              <p class="manga-description"></p>
-              <div class="manga-actions"></div>
-            </div>
+        <div class="manga-layout">
+          <img class="manga-cover" alt="">
+          <div class="manga-info">
+            <a class="back-link" href="#library">Voltar para obras</a>
+            <p class="eyebrow manga-genre"></p>
+            <h1></h1>
+            <div class="manga-badges"></div>
+            <p class="manga-description"></p>
+            <div class="manga-actions"></div>
           </div>
         </div>
         <div class="manga-content">
@@ -222,7 +192,7 @@
       <p>KapiTomo e um espaco oficial para publicar e ler obras autorais de leitura livre.</p>
     </footer>
 
-    <script src="data/works.js?v=20260602"></script>
-    <script src="app.js?v=20260602"></script>
+    <script src="data/works.js?v=20260604"></script>
+    <script src="app.js?v=20260604"></script>
   </body>
 </html>
