@@ -279,8 +279,9 @@ a {
 
 .works-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: minmax(0, 560px);
   gap: 22px;
+  justify-content: start;
 }
 
 .crawler-links {
@@ -293,6 +294,8 @@ a {
 }
 
 .work-card {
+  display: grid;
+  grid-template-columns: 136px minmax(0, 1fr);
   overflow: hidden;
   background: var(--surface);
   border: 1px solid var(--line);
@@ -308,13 +311,16 @@ a {
 
 .work-cover-link img {
   width: 100%;
-  aspect-ratio: 3 / 4;
+  height: 100%;
+  min-height: 204px;
+  aspect-ratio: 2 / 3;
   object-fit: cover;
   background: #ddd;
 }
 
 .work-card-body {
-  padding: 18px;
+  align-self: center;
+  padding: 18px 20px;
 }
 
 .work-tags {
@@ -339,6 +345,10 @@ a {
   font-size: 1.2rem;
 }
 
+.work-card h3 {
+  font-size: 1.35rem;
+}
+
 .work-card h3 a,
 .latest-item h3 a {
   text-decoration: none;
@@ -349,6 +359,10 @@ a {
 .site-footer p {
   color: var(--muted);
   line-height: 1.55;
+}
+
+.work-card p {
+  margin-bottom: 16px;
 }
 
 .latest-band,
@@ -622,7 +636,7 @@ code {
 
 .manga-hero {
   position: relative;
-  min-height: 560px;
+  min-height: 420px;
   overflow: hidden;
   color: #fff;
 }
@@ -650,13 +664,13 @@ code {
 .manga-layout {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(220px, 320px) minmax(0, 1fr);
+  grid-template-columns: minmax(160px, 220px) minmax(0, 1fr);
   align-items: end;
-  gap: clamp(24px, 5vw, 56px);
+  gap: clamp(22px, 4vw, 42px);
   width: min(1180px, calc(100% - 36px));
-  min-height: 560px;
+  min-height: 420px;
   margin: 0 auto;
-  padding: 72px 0 46px;
+  padding: 56px 0 38px;
 }
 
 .manga-cover {
@@ -682,8 +696,8 @@ code {
 .chapter-header h1 {
   max-width: 860px;
   margin: 0;
-  font-size: clamp(2.8rem, 8vw, 6.6rem);
-  line-height: 0.96;
+  font-size: clamp(2.3rem, 6vw, 4.9rem);
+  line-height: 1;
   letter-spacing: 0;
 }
 
@@ -1015,6 +1029,22 @@ code {
 
   .hero-content {
     margin-bottom: 48px;
+  }
+
+  .works-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .work-card {
+    grid-template-columns: 104px minmax(0, 1fr);
+  }
+
+  .work-cover-link img {
+    min-height: 168px;
+  }
+
+  .work-card-body {
+    padding: 14px;
   }
 
   .latest-item {
