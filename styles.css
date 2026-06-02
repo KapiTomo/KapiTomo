@@ -933,6 +933,68 @@ code {
   padding: 34px 0 60px;
 }
 
+.novel-page {
+  min-height: 100svh;
+  background: #000;
+}
+
+.novel-page .chapter-header {
+  width: min(768px, calc(100% - 40px));
+  padding: 34px 0 0;
+  text-align: center;
+}
+
+.novel-page .back-link,
+.novel-page .chapter-header .eyebrow,
+.novel-page .chapter-tools {
+  display: none;
+}
+
+.novel-page .chapter-header h1 {
+  margin: 0;
+  font-size: clamp(1.55rem, 4vw, 1.9rem);
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.novel-meta {
+  margin: 10px 0 8px;
+  color: #7f8895;
+  font-size: 0.82rem;
+}
+
+.novel-meta span {
+  margin-left: 16px;
+}
+
+.novel-reader {
+  width: min(768px, calc(100% - 40px));
+  margin: 8px auto 0;
+  padding: 26px 22px 54px;
+  border-top: 1px solid #242831;
+  background: #000;
+}
+
+.novel-reader p {
+  margin: 0 0 28px;
+  color: #fff;
+  font-size: clamp(1.08rem, 2.8vw, 1.28rem);
+  font-weight: 700;
+  line-height: 1.82;
+  text-align: left;
+}
+
+.novel-page .chapter-footer {
+  width: min(768px, calc(100% - 40px));
+  padding: 0 0 46px;
+}
+
+.novel-page .chapter-footer .button {
+  background: #10131a;
+  color: #f4f7fb;
+  border-color: #242831;
+}
+
 @media (max-width: 760px) {
   .site-header,
   .toolbar,
